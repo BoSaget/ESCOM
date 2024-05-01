@@ -1,0 +1,38 @@
+Design: 20:02, martes, 21 de septiembre de 2021
+Design: Opening design "Z:\Practica de Repaso\Multiplexor\vhd\codigo\codigo.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: Z:\Practica de Repaso\Multiplexor\vhd\codigo.vhd
+Compile Entity "multiplexor4_1"
+Compile Architecture "DSMB" of Entity "multiplexor4_1"
+Top-Level unit detected
+Entity  =>   multiplexor4_1
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+20:02, martes, 21 de septiembre de 2021
+Simulation has been initialized
+Selected Top-Level: multiplexor4_1 (DSMB)
+KERNEL: stopped at time: 2 ms
+ reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+20:02, martes, 21 de septiembre de 2021
+Simulation has been initialized
+Selected Top-Level: multiplexor4_1 (DSMB)
+KERNEL: stopped at time: 2 ms
+KERNEL: Simulation has finished. There are no more test vectors to simulate.

@@ -1,0 +1,6 @@
+ENTITY led IS
+    PORT (
+	switch : in std_logic_vector (3 downto 0) ; 
+	leds : inout std_logic_vector (9 downto 0)
+    ) ;
+END led ;

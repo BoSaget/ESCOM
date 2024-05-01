@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: Z:\Registro General\vhd\registro_general.vhd
+ Compile Entity "registro"
+ Compile Architecture "DSMB" of Entity "registro"
+ Top-Level unit detected
+ Entity  =>   registro
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

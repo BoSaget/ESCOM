@@ -1,0 +1,52 @@
+Design: 17:31, lunes, 27 de septiembre de 2021
+Design: Opening design "Z:\Registro General\vhd\registro_general\registro_general.adf"
+Compilation with file reorder...
+File: Z:\Registro General\vhd\registro_general.vhd
+Compile Entity "registro"
+Compile Architecture "DSMB" of Entity "registro"
+Top-Level unit detected
+Entity  =>   registro
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+17:32, lunes, 27 de septiembre de 2021
+Simulation has been initialized
+Selected Top-Level: registro (DSMB)
+Cannot force signal control with formula 0.
+Cannot force signal datos with formula 0.
+KERNEL: stopped at time: 2 ms
+ reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+17:32, lunes, 27 de septiembre de 2021
+Simulation has been initialized
+Selected Top-Level: registro (DSMB)
+KERNEL: stopped at time: 2 ms
+ reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+17:32, lunes, 27 de septiembre de 2021
+Simulation has been initialized
+Selected Top-Level: registro (DSMB)
+Simulation has been stopped

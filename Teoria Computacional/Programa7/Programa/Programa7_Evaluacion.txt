@@ -1,0 +1,3 @@
+Simbolo que se esta evaluando: )	Produccion aplicada: NULL
+Cadena Evaluada: )(((())()())((			Cadena Resultante: NULL
+--Cadena Rechazada--

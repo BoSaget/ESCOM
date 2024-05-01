@@ -1,0 +1,9 @@
+ENTITY sumador IS
+    PORT (
+	a : in std_logic_vector (3 downto 0) ; 
+	b : in std_logic_vector (3 downto 0) ; 
+	reset : in std_logic  ; 
+	clk : in std_logic  ; 
+	salida : inout std_logic_vector (4 downto 0)
+    ) ;
+END sumador ;

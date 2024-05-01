@@ -1,0 +1,1076 @@
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q64, c) -> q65 f(q143, n) -> q144 f(q10, c) -> q11 f(q10, l) -> q11 f(q10, l) -> q11 f(q10, l) -> q11 f(q66, l) -> q67 f(q66, u) -> q67 f(q118, u) -> q119 f(q118, d) -> q119 f(q26, d) -> q27 f(q27, e) -> q28 f(q144, Simbolo) -> Cadena No Valida
+f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, L) -> q144 f(q143, C) -> q144 f(q143, S) -> q144 f(q143, E) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, h) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q70, r) -> q71 f(q71, e) -> q72 f(q71, a) -> q72 f(q38, e) -> q39 f(q38, a) -> q39 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, C) -> q71 f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q10, h) -> q11 f(q14, h) -> q15 f(q15, a) -> q16 f(q16, r) -> q17 Acepta Cadena: char
+f(q16, r) -> q17 f(q143, h) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, m) -> q144 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q66, l) -> q67 f(q66, l) -> q67 f(q67, o) -> q68 f(q67, c) -> q68 f(q143, o) -> q144 f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q93, z) -> q94 f(q94, e) -> q95 f(q95, o) -> q96 f(q96, f) -> q97 Acepta Cadena: sizeof
+f(q62, i) -> q63 f(q62, z) -> q63 f(q143, z) -> q144 f(q38, e) -> q39 f(q38, o) -> q39 f(q143, o) -> q144 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q70, r) -> q71 f(q71, e) -> q72 f(q79, t) -> q80 f(q80, u) -> q81 f(q81, r) -> q82 f(q82, n) -> q83 Acepta Cadena: return
+f(q38, e) -> q39 f(q38, t) -> q39 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, r) -> q119 f(q70, r) -> q71 f(q70, n) -> q71 f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q128, v) -> q129 f(q129, o) -> q130 f(q130, i) -> q131 f(q131, d) -> q132 Acepta Cadena: void
+f(q143, o) -> q144 f(q62, i) -> q63 f(q62, d) -> q63 f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, E) -> q144 f(q66, l) -> q67 f(q66, i) -> q67 f(q62, i) -> q63 f(q62, m) -> q63 f(q143, m) -> q144 f(q62, i) -> q63 f(q64, n) -> q65 f(q64, a) -> q65 f(q143, n) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, C) -> q71 f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q10, h) -> q11 f(q14, h) -> q15 f(q15, a) -> q16 f(q16, r) -> q17 Acepta Cadena: char
+f(q16, r) -> q17 f(q143, h) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q52, l) -> q53 f(q52, a) -> q53 f(q66, l) -> q67 f(q66, a) -> q67 f(q1, a) -> q2 f(q1, g) -> q2 f(q58, g) -> q59 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q138, w) -> q139 f(q139, h) -> q140 f(q140, i) -> q141 f(q141, l) -> q142 f(q142, e) -> q143 Acepta Cadena: while
+f(q143, h) -> q144 f(q62, i) -> q63 f(q62, l) -> q63 f(q66, l) -> q67 f(q66, e) -> q67 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q52, l) -> q53 f(q52, a) -> q53 f(q66, l) -> q67 f(q66, a) -> q67 f(q1, a) -> q2 f(q1, g) -> q2 f(q58, g) -> q59 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q63, f) -> q64 Acepta Cadena: if
+f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q52, l) -> q53 f(q52, a) -> q53 f(q66, l) -> q67 f(q66, a) -> q67 f(q1, a) -> q2 f(q1, g) -> q2 f(q58, g) -> q59 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q63, f) -> q64 Acepta Cadena: if
+f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, N) -> q144 f(q143, U) -> q144 f(q143, L) -> q144 f(q143, L) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q63, f) -> q64 Acepta Cadena: if
+f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q38, e) -> q39 f(q39, l) -> q40 f(q40, s) -> q41 f(q41, e) -> q42 Acepta Cadena: else
+f(q66, l) -> q67 f(q66, s) -> q67 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q51, r) -> q52 f(q70, r) -> q71 f(q71, e) -> q72 f(q71, e) -> q72 f(q38, e) -> q39 f(q38, e) -> q39 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q1, c) -> q2 f(q10, c) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q10, t) -> q11 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q128, v) -> q129 f(q129, o) -> q130 f(q130, i) -> q131 f(q131, d) -> q132 Acepta Cadena: void
+f(q143, o) -> q144 f(q62, i) -> q63 f(q62, d) -> q63 f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, I) -> q144 f(q143, n) -> q144 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q38, r) -> q39 f(q70, r) -> q71 f(q70, t) -> q71 f(q111, t) -> q112 f(q111, a) -> q112 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, L) -> q71 f(q143, L) -> q144 f(q143, C) -> q144 f(q143, S) -> q144 f(q143, E) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q10, h) -> q11 f(q14, h) -> q15 f(q15, a) -> q16 f(q16, r) -> q17 Acepta Cadena: char
+f(q16, r) -> q17 f(q143, h) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q70, r) -> q71 f(q71, e) -> q72 f(q71, a) -> q72 f(q38, e) -> q39 f(q38, a) -> q39 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, C) -> q71 f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q11, b) -> q12 f(q1, a) -> q2 f(q1, b) -> q2 f(q5, b) -> q6 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, e) -> q119 f(q38, e) -> q39 f(q38, v) -> q39 f(q128, v) -> q129 f(q129, o) -> q130 f(q144, Simbolo) -> Cadena No Valida
+f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q128, v) -> q129 f(q129, o) -> q130 f(q130, i) -> q131 f(q131, d) -> q132 Acepta Cadena: void
+f(q143, o) -> q144 f(q62, i) -> q63 f(q62, d) -> q63 f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, j) -> q144 f(q143, o) -> q144 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q38, p) -> q39 f(q143, p) -> q144 f(q143, h) -> q144 f(q118, u) -> q119 f(q118, s) -> q119 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q1, a) -> q2 f(q1, m) -> q2 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q10, h) -> q11 f(q14, h) -> q15 f(q15, a) -> q16 f(q16, r) -> q17 Acepta Cadena: char
+f(q16, r) -> q17 f(q143, h) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q1, a) -> q2 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, N) -> q144 f(q143, U) -> q144 f(q143, L) -> q144 f(q143, L) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, Â) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, C) -> q144 f(q118, u) -> q119 f(q118, a) -> q119 f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q27, e) -> q28 f(q27, s) -> q28 f(q38, e) -> q39 f(q38, s) -> q39 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q38, a) -> q39 f(q1, a) -> q2 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q64, g) -> q65 f(q143, n) -> q144 f(q58, g) -> q59 f(q58, r) -> q59 f(q70, r) -> q71 f(q71, e) -> q72 f(q71, s) -> q72 f(q38, e) -> q39 f(q38, s) -> q39 f(q83, s) -> q84 f(q83, a) -> q84 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, c) -> q84 f(q10, c) -> q11 f(q11, a) -> q12 f(q11, n) -> q12 f(q11, n) -> q12 f(q11, n) -> q12 f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q56, o) -> q57 f(q57, r) -> q58 Acepta Cadena: for
+f(q143, o) -> q144 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, I) -> q144 f(q143, n) -> q144 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q38, r) -> q39 f(q70, r) -> q71 f(q70, t) -> q71 f(q111, t) -> q112 f(q111, a) -> q112 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, L) -> q71 f(q143, L) -> q144 f(q143, C) -> q144 f(q143, S) -> q144 f(q143, E) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q1, a) -> q2 f(q1, m) -> q2 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q1, a) -> q2 f(q1, m) -> q2 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q11, a) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q11, m) -> q12 f(q1, a) -> q2 f(q1, m) -> q2 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q138, w) -> q139 f(q139, h) -> q140 f(q140, i) -> q141 f(q141, l) -> q142 f(q142, e) -> q143 Acepta Cadena: while
+f(q143, h) -> q144 f(q62, i) -> q63 f(q62, l) -> q63 f(q66, l) -> q67 f(q66, e) -> q67 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q51, f) -> q52 f(q56, o) -> q57 f(q57, r) -> q58 Acepta Cadena: for
+f(q143, o) -> q144 f(q70, r) -> q71 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q88, i) -> q89 f(q89, g) -> q90 f(q89, g) -> q90 f(q62, i) -> q63 f(q62, g) -> q63 f(q58, g) -> q59 f(q58, u) -> q59 f(q118, u) -> q119 f(q118, i) -> q119 f(q62, i) -> q63 f(q62, e) -> q63 f(q38, e) -> q39 f(q42, n) -> q43 f(q42, t) -> q43 f(q143, n) -> q144 f(q111, t) -> q112 f(q111, e) -> q112 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q63, f) -> q64 Acepta Cadena: if
+f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, S) -> q144 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q66, e) -> q67 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, E) -> q144 f(q66, l) -> q67 f(q66, i) -> q67 f(q62, i) -> q63 f(q62, m) -> q63 f(q143, m) -> q144 f(q62, i) -> q63 f(q64, n) -> q65 f(q64, a) -> q65 f(q143, n) -> q144 f(q1, a) -> q2 f(q1, r) -> q2 f(q70, r) -> q71 f(q70, C) -> q71 f(q143, C) -> q144 f(q143, N) -> q144 f(q143, O) -> q144 f(q143, D) -> q144 f(q143, O) -> q144 f(q143, C) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q143, m) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q143, o) -> q144 f(q26, d) -> q27 f(q33, o) -> q34 f(q33, s) -> q34 f(q143, o) -> q144 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, S) -> q144 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, a) -> q84 f(q1, a) -> q2 f(q1, l) -> q2 f(q66, l) -> q67 f(q66, v) -> q67 f(q128, v) -> q129 f(q1, a) -> q2 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q10, c) -> q11 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, o) -> q84 f(q143, o) -> q144 f(q66, l) -> q67 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q26, a) -> q27 f(q1, a) -> q2 f(q1, t) -> q2 f(q111, t) -> q112 f(q111, o) -> q112 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, m) -> q144 f(q1, a) -> q2 f(q1, i) -> q2 f(q62, i) -> q63 f(q64, n) -> q65 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q128, v) -> q129 f(q129, o) -> q130 f(q130, i) -> q131 f(q131, d) -> q132 Acepta Cadena: void
+f(q143, o) -> q144 f(q62, i) -> q63 f(q62, d) -> q63 f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, p) -> q144 f(q70, r) -> q71 f(q70, i) -> q71 f(q62, i) -> q63 f(q64, n) -> q65 f(q65, t) -> q66 Acepta Cadena: int
+f(q143, n) -> q144 f(q111, t) -> q112 f(q111, f) -> q112 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, I) -> q144 f(q143, n) -> q144 f(q58, g) -> q59 f(q58, r) -> q59 f(q70, r) -> q71 f(q71, e) -> q72 f(q71, s) -> q72 f(q38, e) -> q39 f(q38, s) -> q39 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q118, u) -> q119 f(q119, n) -> q120 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q118, u) -> q119 f(q118, m) -> q119 f(q143, m) -> q144 f(q38, e) -> q39 f(q38, r) -> q39 f(q70, r) -> q71 f(q70, o) -> q71 f(q143, o) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q83, s) -> q84 f(q83, c) -> q84 f(q10, c) -> q11 f(q11, a) -> q12 f(q11, n) -> q12 f(q11, n) -> q12 f(q11, n) -> q12 f(q1, a) -> q2 f(q1, n) -> q2 f(q143, n) -> q144 f(q51, f) -> q52 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q26, d) -> q27 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, j) -> q144 f(q143, o) -> q144 f(q83, s) -> q84 f(q83, e) -> q84 f(q38, e) -> q39 f(q38, p) -> q39 f(q143, p) -> q144 f(q143, h) -> q144 f(q118, u) -> q119 f(q118, s) -> q119 f(q83, s) -> q84 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q70, r) -> q71 f(q71, e) -> q72 f(q79, t) -> q80 f(q80, u) -> q81 f(q81, r) -> q82 f(q82, n) -> q83 Acepta Cadena: return
+f(q38, e) -> q39 f(q38, t) -> q39 f(q111, t) -> q112 f(q111, u) -> q112 f(q118, u) -> q119 f(q118, r) -> q119 f(q70, r) -> q71 f(q70, n) -> q71 f(q143, n) -> q144 f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida
+f(q144, Simbolo) -> Cadena No Valida

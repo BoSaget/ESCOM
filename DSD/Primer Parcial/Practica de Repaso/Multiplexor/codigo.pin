@@ -1,0 +1,13 @@
+Cypress Package: palc22v10d-15pc  PinOut File: codigo.pin
+
+This file was created on 09/21/2021 at 20:10:48 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+control(1) in <> Enabled Normal 1 <> [User] 
+control(0) in <> Enabled Normal 2 <> [User] 
+entradas(3) in <> Enabled Normal 8 <> [User] 
+entradas(2) in <> Enabled Normal 9 <> [User] 
+entradas(1) in <> Enabled Normal 10 <> [User] 
+entradas(0) in <> Enabled Normal 11 <> [User] 
+salida out <> Enabled Normal 23 <> [User] 

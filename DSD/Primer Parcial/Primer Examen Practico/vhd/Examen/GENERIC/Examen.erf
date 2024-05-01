@@ -1,0 +1,6 @@
+MESSAGE "File: Z:\Primer Examen Practico\vhd\Examen.vhd" 
+MESSAGE "Compile Entity "cto"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "cto"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   cto" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

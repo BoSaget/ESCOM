@@ -1,0 +1,2 @@
+registro_general.vhd #Entity registro 4
+registro_general.vhd #Architecture registro3bits registro 15

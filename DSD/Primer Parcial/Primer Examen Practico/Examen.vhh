@@ -1,0 +1,9 @@
+ENTITY cto IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : in std_logic  ; 
+	d : in std_logic  ; 
+	validado : inout std_logic 
+    ) ;
+END cto ;

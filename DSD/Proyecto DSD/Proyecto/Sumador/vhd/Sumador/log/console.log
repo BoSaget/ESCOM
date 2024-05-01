@@ -1,0 +1,32 @@
+Design: 2:00, lunes, 08 de enero de 2024
+Design: Opening design "Z:\VHDL\Proyecto\Sumador\vhd\Sumador\Sumador.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: Z:\VHDL\Proyecto\Sumador\vhd\Sumador.vhd
+Compile Entity "sumaresta"
+Compile Architecture "DSMB" of Entity "sumaresta"
+Top-Level unit detected
+Entity  =>   sumaresta
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+2:00, lunes, 08 de enero de 2024
+Simulation has been initialized
+Selected Top-Level: sumaresta (DSMB)
+Cannot force signal a with formula 0 0, 1 50000 -r 100000.
+Cannot force signal b with formula 0 0, 1 50000 -r 100000.
+Cannot force signal b with formula 0 0, 1 50000 -r 100000.
+KERNEL: Error: Stimulator formula custom for scalar a is empty. Cannot force signal a with Custom stimulator type.
+Cannot force signal b with formula /custom C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\wfv2.tmp,b.
+Cannot force signal a with formula 0 0, 1 50000 -r 100000.
+KERNEL: Error: Stimulator formula custom for scalar a is empty. Cannot force signal a with Custom stimulator type.
+Cannot force signal a with formula /custom C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\wfv3.tmp,a.
+Simulation has been stopped

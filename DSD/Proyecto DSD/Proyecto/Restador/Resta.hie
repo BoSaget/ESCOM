@@ -1,0 +1,2 @@
+Restador.vhd #Entity restador4bits 6
+Restador.vhd #Architecture behavioral restador4bits 14

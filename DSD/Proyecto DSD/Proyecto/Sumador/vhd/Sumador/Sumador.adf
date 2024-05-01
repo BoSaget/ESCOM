@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=14
+[Configurations]
+GENERIC=Sumador
+[Files]
+/Z:\VHDL\Proyecto\Sumador\vhd\Sumador.vhd=4, 1 31080968 1632312558, 0, , , ,

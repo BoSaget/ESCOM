@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: Z:\Practica de Repaso\Multiplexor\vhd\codigo.vhd
+ Compile Entity "multiplexor4_1"
+ Compile Architecture "DSMB" of Entity "multiplexor4_1"
+ Top-Level unit detected
+ Entity  =>   multiplexor4_1
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

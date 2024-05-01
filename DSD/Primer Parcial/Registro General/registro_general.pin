@@ -1,0 +1,16 @@
+Cypress Package: palc22v10d-15pc  PinOut File: registro_general.pin
+
+This file was created on 09/27/2021 at 18:42:16 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+d(0) in <> Enabled Normal 1 <> [User] 
+d(1) in <> Enabled Normal 2 <> [User] 
+d(2) in <> Enabled Normal 3 <> [User] 
+clk in <> Enabled Normal 5 <> [User] 
+clr in <> Enabled Normal 6 <> [User] 
+control(0) in <> Enabled Normal 8 <> [User] 
+control(1) in <> Enabled Normal 9 <> [User] 
+q(2) inout <> Enabled Normal 21 <> [User] 
+q(1) inout <> Enabled Normal 22 <> [User] 
+q(0) inout <> Enabled Normal 23 <> [User] 

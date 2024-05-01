@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: Z:\VHDL\Proyecto\Sumador\vhd\Sumador.vhd
+ Compile Entity "sumaresta"
+ Compile Architecture "DSMB" of Entity "sumaresta"
+ Top-Level unit detected
+ Entity  =>   sumaresta
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

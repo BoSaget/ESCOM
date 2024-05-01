@@ -1,0 +1,6 @@
+MESSAGE "File: Z:\Practica de Repaso\Multiplexor\vhd\codigo.vhd" 
+MESSAGE "Compile Entity "multiplexor4_1"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "multiplexor4_1"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   multiplexor4_1" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

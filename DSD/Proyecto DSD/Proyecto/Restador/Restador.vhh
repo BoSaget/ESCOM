@@ -1,0 +1,9 @@
+ENTITY restador4bits IS
+    PORT (
+	a : in std_logic_vector (3 downto 0) ; 
+	b : in std_logic_vector (3 downto 0) ; 
+	borrowin : in std_logic  ; 
+	difference : inout std_logic_vector (3 downto 0) ; 
+	borrowout : inout std_logic 
+    ) ;
+END restador4bits ;

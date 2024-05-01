@@ -1,0 +1,12 @@
+Cypress Package: palc22v10d-15pc  PinOut File: Contador Sincrono 0-7.pin
+
+This file was created on 12/05/2021 at 19:57:45 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+q(1) out <> Enabled Normal 14 <> [Auto] 
+nq(2) out <> Enabled Normal 15 <> [Auto] 
+nq(0) out <> Enabled Normal 16 <> [Auto] 
+q(2) inout <> Enabled Normal 21 <> [Auto] 
+nq(1) out <> Enabled Normal 22 <> [Auto] 
+q(0) out <> Enabled Normal 23 <> [Auto] 

@@ -1,0 +1,11 @@
+ejercicio en clase:
+Realizar el algortimo de Fibonacci con hilos.
+- El usuario va a indicar un conjunto de valores al momento de ejecutar el programa.
+
+---Ejemplos---
+- ./fibo 102 500012 23000 200,000 1,000,000...
+
+-Cada una de las cantidades representa el valor en el que se debe detener la serie
+y cada vakir debe de ser generada por un hilo.
+
+-Se serie se retorna al padre para que imprima.

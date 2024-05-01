@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: Z:\Practica de Repaso\Leds\vhd\codigo.vhd
+ Compile Entity "led"
+ Compile Architecture "DSMB" of Entity "led"
+ Top-Level unit detected
+ Entity  =>   led
+ Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

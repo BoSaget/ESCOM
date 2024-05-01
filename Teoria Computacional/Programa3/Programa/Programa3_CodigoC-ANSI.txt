@@ -1,0 +1,92 @@
+#include "LCSE.h"
+
+CNODOC * CrearCNODOC(CNODOC *sol, char dat)
+{
+	CNODOC * nuevo=(CNODOC*) malloc (sizeof (CNODOC));
+	nuevo->dato=dat;
+	nuevo->siguiente=sol;
+	return nuevo;
+}
+
+void EliminarCNODOC(CNODOC **cab, char n)
+{
+	CNODOC *ant, *actual= *cab;
+    int flag=0;
+    
+    while(actual && flag==0)
+    {
+        if(flag==0)
+        {
+            ant=actual;
+            actual=actual->siguiente;
+        }
+    }
+    
+    if(actual != NULL)
+    {
+        if(actual==*cab)
+        {
+            *cab=actual->siguiente;
+        }
+        
+        else
+        {
+            ant->siguiente=actual->siguiente;
+        }
+        free (actual);
+    }
+}
+
+void InsertarLCSE(CNODOC **cab, char n)
+{
+    CNODOC *nuevo= CrearCNODOC(nuevo, n);
+    nuevo->siguiente=*cab;
+    *cab=nuevo;
+}
+
+void josephus(int n)
+{
+    int nodos, i, cam;
+    char nom='a';
+    CNODOC *sol=NULL;
+    
+    printf("¿Cuantos nodos desea ingresar? \n");
+    scanf("%d", &nodos);
+    
+    for(i=0; i<nodos; i++)
+    {
+        InsertarLCSE(&sol, nom);
+        cam=nom-'0';
+        cam++;
+        nom=cam+'0';
+    }
+    
+    while(nodos!=1)
+    {
+        printf("\n");
+        for(i=1; i<7; i++)
+        {
+            printf("%c, %c \n", sol->dato, sol->dato);
+            sol=sol->siguiente;
+            if(i==n)
+            {
+            	printf("\n");
+        		printf("Sale:\n %c, %c \n", sol->dato, sol->dato);
+        		printf("\n");
+				EliminarCNODOC(&sol, nom);
+			}
+        }
+        
+        nodos=nodos-1;
+    }
+    printf("Se salva: %c, %c \n", sol->dato, sol->dato);
+}
+
+int main (void)
+{
+    int n;
+    printf("Ingrese un numero \n");
+    scanf("%d", &n);
+    josephus(n);
+return 0;
+}

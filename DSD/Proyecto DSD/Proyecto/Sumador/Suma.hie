@@ -1,0 +1,2 @@
+Sumador.vhd #Entity sumador 6
+Sumador.vhd #Architecture suma sumador 14

@@ -1,0 +1,11 @@
+ENTITY controlunit IS
+    PORT (
+	clk : in std_logic  ; 
+	entrada : in std_logic_vector (1 downto 0) ; 
+	start : in std_logic  ; 
+	carga : inout std_logic  ; 
+	suma : inout std_logic  ; 
+	resta : inout std_logic  ; 
+	swap : inout std_logic 
+    ) ;
+END controlunit ;

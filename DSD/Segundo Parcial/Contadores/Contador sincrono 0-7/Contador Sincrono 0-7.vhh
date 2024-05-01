@@ -1,0 +1,8 @@
+ENTITY contador0_7 IS
+    PORT (
+	t : in std_logic  ; 
+	clk : in std_logic  ; 
+	q : inout std_logic_vector (2 downto 0) ; 
+	nq : inout std_logic_vector (2 downto 0)
+    ) ;
+END contador0_7 ;

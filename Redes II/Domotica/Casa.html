@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servidor con Micropython</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="border-2">
+        <div class="bg-indigo-500 bg">
+            <div class="font-mono text-center text-4xl font-semibold text-indigo-100">
+                <h1>Proyecto Domotica</h1>
+            </div>"
+        </div>
+    </div>
+	<div class="container flex">
+        <div class="grid grid-cols-6 gap-1 grid-rows-6">
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">  
+                <p class="text-center font-bold text-2xl">Comedor</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?comedor=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?comedor=off'">Apagar</button>
+                <br>
+            </div>
+
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Cocina</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?cocina=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?cocina=off'">Apagar</button>
+                <br>
+            </div>
+
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Cuarto de Visitas</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?cuarto2=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?cuarto2=off'">Apagar</button>
+                <br>
+            </div>
+
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Cuarto Principal</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?cuarto1=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?cuarto1=off'">Apagar</button>
+                <br>
+            </div>
+            
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Baño</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?banio=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?banio=off'">Apagar</button>
+                <br>
+            </div>
+
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Entrada</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?entrada=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?entrada=off'">Apagar</button>
+                <br>
+            </div>
+
+            <div>
+                <img src="https://imagenpng.com/wp-content/uploads/2015/04/foco_amarillo.png" width="150" height="150" alt="img">
+                <p class="text-center font-bold text-2xl">Puerta</p>
+            </div>
+            <div class="col-span-2">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800" onclick="window.location.href='/?puerta=on'">Encender</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" onclick="window.location.href='/?puerta=off'">Apagar</button>
+                <br>
+            </div>
+            
+            <div class="col-span-6">
+                <br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-blue-700 rounded-lg focus:shadow-outline hover:bg-blue-800" onclick="window.location.href='/?luces=on'">Encender todas las luces</button>
+                <br><br>
+                <button class="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-yellow-700 rounded-lg focus:shadow-outline hover:bg-yellow-800" onclick="window.location.href='/?luces=off'">Apagar todas las luces</button>
+                <br>
+            </div>
+            
+        </div>
+	</div>
+</body>
+</html>

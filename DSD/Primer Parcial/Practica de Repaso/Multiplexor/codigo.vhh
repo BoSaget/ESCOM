@@ -1,0 +1,7 @@
+ENTITY multiplexor4_1 IS
+    PORT (
+	control : in std_logic_vector (1 downto 0) ; 
+	entradas : in std_logic_vector (3 downto 0) ; 
+	salida : inout std_logic 
+    ) ;
+END multiplexor4_1 ;
