@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'/>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./../Materialize/css/materialize.css">
+        <link rel="stylesheet" href="./../Jquery/Plugins/validetta/validetta.css">
+        <link rel="stylesheet" href="./../Jquery/Plugins/confirm/css/jquery-confirm.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <script src="./../Jquery/jquery-3.6.0.js"></script>
+        <script src="./../Materialize/js/materialize.js"></script>
+        <script src="./../Jquery/Plugins/validetta/validetta.js"></script>
+        <script src="./../Jquery/Plugins/validetta/validettaLang-es-ES.js"></script>
+        <script src="./../Jquery/Plugins/confirm/js/jquery-confirm.js"></script>
+        <script src="./registro.js"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+        
+        <title>Registro</title>
+        
+        <div class="row">
+            <div class="col s6"><h1 class="white-text">Cafeteria Palomino</h1></div>
+            <div class="col s6"><i class="fas fa-dove" style="font-size:50px;color: white"></i></div>
+        </div>
+
+    </head>    
+    
+    <body>
+        <!-- MEnu de Navegacion -->
+        <ul id="dropdown1" class="dropdown-content grey">
+            <li><a class="black-text" href="./index.html">Inicio</a></li>
+            <li><a class="black-text" href="./menu.html">Platillos</a></li>
+            <li><a class="black-text" href="./rewards.html">Recompensas</a></li>
+            <li><a class="black-text" href="./faq.html">Preguntas Frecuentas</a></li>
+        </ul>
+        <nav class="grey">
+            <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+            </ul>
+            <ul  class="left hide-on-med-and-down">
+                 <!-- Dropdown Trigger -->
+                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="fas fa-bars"></i></a></li>
+            </ul>
+            </div>
+
+            <ul class="sidenav" id="mobile-demo">
+              <li><a class="black-text" href="./index.html">Inicio</a></li>
+              <li><a class="black-text" href="./menu.html">Platillos</a></li>
+              <li><a class="black-text" href="./rewards.html">Recompensas</a></li>
+              <li><a class="black-text" href="./faq.html">Preguntas Frecuentas</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="registro.html">Registrarse</a></li>
+            </ul>
+        </nav>
+
+            <div class="row">
+                <form class="col s12" id="registro" autocomplete="off">
+                <div class="row">
+                    <div class="input-field col s3"></div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-user-tag prefix" style="color: white;"></i>
+                        <input id="nombre" name="nombre" type="text" class="validate" data-validetta="required" style="color: white;">
+                        <label for="nombre" style="color: white;">Nombre(s)</label style="color: white;">
+                    </div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-user-tag prefix" style="color: white;"></i>
+                        <input id="paterno" name="paterno" type="text" class="validate" data-validetta="required" style="color: white;">
+                        <label for="paterno" style="color: white;">Apellido Paterno</label>
+                    </div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-user-tag prefix" style="color: white;"></i>
+                        <input id="materno" name="materno" type="text" class="validate" data-validetta="required" style="color: white;">
+                        <label for="materno" style="color: white;">Apellido Materno</label>
+                    </div>
+                    <div class="input-field col s3"></div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s3"></div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-key prefix" style="color: white;"></i>
+                        <input id="pass" name="pass" type="password" class="validate" data-validetta="required,minLength[8]" style="color: white;">
+                        <label for="pass" style="color: white;">Contraseña</label>
+                    </div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-at prefix" style="color: white;"></i>
+                        <input id="correo" name="correo" type="email" class="validate"data-validetta="required, email" style="color: white;">
+                        <label for="correo" style="color: white;">Correo</label>
+                    </div>
+                    <div class="input-field col s2">
+                        <i class="fas fa-phone prefix" style="color: white;"></i>
+                        <input id="celular" name="celular" type="text" class="validate"  data-validetta="required,minLength[10],maxLenght[10],number" style="color: white;">
+                        <label for="celular" style="color: white;">Celular</label>
+                    </div>
+                    <div class="input-field col s3"></div>
+                </div>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn grey" href="./index.html"><i class="fas fa-arrow-circle-left"> Inicio</i></a>
+                    <button class="waves-effect waves-light btn grey" type="reset"><i class="fas fa-brush"> Limpiar</i></button>
+                    <button class="waves-effect waves-light btn grey" type="submit"><i class="fas fa-sign-in-alt"> Registrarse</i></button>
+                </div>
+                </form>
+            </div>
+    </body>
+</html>
