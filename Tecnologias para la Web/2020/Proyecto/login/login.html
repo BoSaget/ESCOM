@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
-
+        <script src="./js/login.js"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
     </head>
 
@@ -75,54 +75,63 @@
         <br>
 
         <!-- Formulario -->
-        <form id="login" autocomplete="off">
-            <div class="grid grid-cols-4 gap-4">
-                <div class="..."></div>
-                <div class="...">
-                    <div class="rounded-md bg-gray-100 px-3 py-2 text-base text-center">
-                        <div class="text-2xl">Login</div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <div class="...">
-                                <div>Email/Celular</div>
+        <div class="grid grid-cols-7 gap-3">
+            <div class="col-start-2 col-span-2">
+                <form id="login" autocomplete="off">  
+                        <div class="rounded-md bg-gray-100 px-3 py-2 text-base text-center md:container md:mx-auto">
+                            <div class="text-2xl">Login</div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="...">
+                                    <div>Email/Celular</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-login" class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="... text-center">
+                                    <div>Constraseña</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="password" id="user-login-pass" class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
                             </div>
-                            <div class="col-span-2 ...">
-                                <input type="text" id="user-login" class="rounded-md px-3 py-2">
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="col-start-2 ...">
+                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" href="./login.php">Ingresar</button>
+                                </div>
                             </div>
-                            <div class="...">
-                                <div>Constraseña</div>
-                            </div>
-                            <div class="col-span-2 ...">
-                                <input type="password" id="user-pass" class="rounded-md px-3 py-2">
-                            </div>
-                            <div class="col-span-2"></div>
                         </div>
-                    </div>
-                </div>
+                </form>
             </div>
-        </form>
 
-        <form id="registro" autocomplete="off">
-            <div class="...">
-                <div class="rounded-md bg-gray-100 px-3 py-2 text-base text-center">
-                    <div class="text-2xl">Registro</div>
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="...">
-                            <div>Email</div>
+            <div class="col-start-5 col-span-2">
+                <form id="registro" autocomplete="off">
+                        <div class="rounded-md bg-gray-100 py-2 text-base text-center">
+                            <div class="text-2xl">Registro</div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="...">
+                                    <div>Email</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="mail" id="user-sign" class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="...">
+                                    <div>Constraseña</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="password" id="user-sign-pass" class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+                            </div>
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="col-start-2 ...">
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" href="./registro.php">Registrarse</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-span-2 ...">
-                            <input type="mail" id="user-login" class="rounded-md px-3 py-2">
-                        </div>
-                        <div class="...">
-                            <div>Constraseña</div>
-                        </div>
-                        <div class="col-span-2 ...">
-                            <input type="password" id="user-pass" class="rounded-md px-3 py-2">
-                        </div>
-                        <div class="col-span-2"></div>
-                    </div>
-                </div>
+                </form>
             </div>
-        </form>
+        </div>
 
         
 
