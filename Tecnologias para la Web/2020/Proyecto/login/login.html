@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
 
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
     </head>
@@ -70,16 +71,55 @@
             Login
         </h1>
 
+        <br>
+        <br>
+
         <!-- Formulario -->
-        <div class="grid grid-cols-3 gap-4">
-            <div class="...">01</div>
-            <div class="...">02</div>
-            <div class="...">03</div>
-            <div class="col-span-2 ...">04</div>
-            <div class="...">05</div>
-            <div class="...">06</div>
-            <div class="col-span-2 ...">07</div>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="..."></div>
+            <div class="...">
+                <div class="rounded-md bg-gray-100 px-3 py-2 text-base text-center">
+                    <div class="text-2xl">Login</div>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="...">
+                            <div>Email/Celular</div>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <input type="text" id="user-login" class="rounded-md px-3 py-2">
+                        </div>
+                        <div class="...">
+                            <div>Constraseña</div>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <input type="password" id="user-pass" class="rounded-md px-3 py-2">
+                        </div>
+                        <div class="col-span-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="...">
+                <div class="rounded-md bg-gray-100 px-3 py-2 text-base text-center">
+                    <div class="text-2xl">Registro</div>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="...">
+                            <div>Email</div>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <input type="mail" id="user-login" class="rounded-md px-3 py-2">
+                        </div>
+                        <div class="...">
+                            <div>Constraseña</div>
+                        </div>
+                        <div class="col-span-2 ...">
+                            <input type="password" id="user-pass" class="rounded-md px-3 py-2">
+                        </div>
+                        <div class="col-span-2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        
 
         <script src="./js/navbar.js"></script>
     </body>
