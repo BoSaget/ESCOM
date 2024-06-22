@@ -10,7 +10,7 @@
     </head>
 
     <body class="bg-slate-600">
-        <nav class="bg-amber-600">
+        <nav class="bg-blue-800">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div class="relative flex h-16 items-center justify-between">
                     <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -53,7 +53,7 @@
                     </div>
 
                     <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                        <button id="user-menu-button" class="relative rounded-full bg-amber-600 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                        <button id="user-menu-button" class="relative rounded-full bg-blue-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span class="absolute -inset-1.5"></span>
                             <span class="sr-only">View notifications</span>
                             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -104,7 +104,7 @@
             </div>
         </nav>
           
-        <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center">
+        <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center hidden">
 
             <h1 class="text-3xl font-bold underline">
                 Menú
@@ -133,7 +133,7 @@
             </div>
         </div>
           
-        <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center hidden">
+        <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center ">
 
             <h1 class="text-3xl font-bold underline">
                 Modificador de menú
@@ -147,6 +147,8 @@
                             <th class="border border-slate-900">Ingredientes</th>
                             <th class="border border-slate-900">Notas</th>
                             <th class="border border-slate-900">Precio</th>
+                            <th class="border border-slate-900">Status</th>
+                            <th class="border border-slate-900 text-center">-</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -155,6 +157,8 @@
                             <td class="border border-slate-700"><input></td>
                             <td class="border border-slate-700"><input></td>
                             <td class="border border-slate-700"><input placeholder="35"></td>
+                            <td class="border border-slate-700"><a href="./../login/login.html" class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium">Alta</a></td>
+                            <td class="border border-slate-700"><a href="./../login/login.html" class="bg-red-700 text-white block rounded-md px-3 py-2 text-base font-medium">Borrar</a></td>
                         </tr>
                         
                     </tbody>
@@ -174,13 +178,14 @@
                         <tr>
                             <th class="border border-slate-900">Platillo</th>
                             <th class="border border-slate-900">Notas del pedido</th>
+                            <th class="border border-slate-900">Pedido hecho</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="border border-slate-700">Café Americano </td>
                             <td class="border border-slate-700">sin azucar</td>
-                            
+                            <td class="border border-slate-700"><a href="./../login/login.html" class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium">Completado</a></td>
                         </tr>
                         
                     </tbody>
