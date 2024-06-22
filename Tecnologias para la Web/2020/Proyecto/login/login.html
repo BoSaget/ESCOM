@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="./js/login.js"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+
+        <script src="./js/login.js"></script>
+        <script src="./../node_modules/socket.io/dist/socket.js"></script>
     </head>
 
     <body class="bg-slate-600">
@@ -97,7 +99,7 @@
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" href="./login.php">Ingresar</button>
+                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit">Ingresar</button>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +127,7 @@
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" href="./registro.php">Registrarse</button>
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit">Registrarse</button>
                                 </div>
                             </div>
                         </div>
