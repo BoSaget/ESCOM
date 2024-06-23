@@ -4,10 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
 
     <body class="bg-slate-600">
@@ -86,26 +82,26 @@
                                     <div>Email/Celular</div>
                                 </div>
                                 <div class="col-span-2 ...">
-                                    <input type="text" id="user-login" class="rounded-md px-3 py-2">
+                                    <input type="text" id="user-login" name="user-login" class="rounded-md px-3 py-2">
                                 </div>
                                 <div class="... text-center">
                                     <div>Constraseña</div>
                                 </div>
                                 <div class="col-span-2 ...">
-                                    <input type="password" id="user-login-pass" class="rounded-md px-3 py-2">
+                                    <input type="password" id="user-login-pass" name="user-login-pass" class="rounded-md px-3 py-2">
                                 </div>
                                 <div class="col-span-2"></div>
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" onclick="sendData()">Ingresar</button>
+                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" id="login-button">Ingresar</button>
                                 </div>
                             </div>
                         </div>
                 </form>
             </div>
 
-
+            
 
             <div class="lg:col-start-5 lg:col-span-2 my-3 mx-6">
                 <form id="registro" autocomplete="off">
@@ -128,7 +124,7 @@
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit" href="./sign.php">Registrarse</button>
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" id="sign-button">Registrarse</button>
                                 </div>
                             </div>
                         </div>
@@ -136,8 +132,11 @@
             </div>
         </div>
 
-        
 
+        <div id="response"></div>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
         <script src="./js/navbar.js"></script>
         <script src="./js/login.js"></script>
     </body>
