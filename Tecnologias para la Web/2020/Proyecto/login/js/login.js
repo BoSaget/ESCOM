@@ -1,16 +1,17 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const socket = io();
-  
-    const form = document.getElementById('login');
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-  
-      const formData = {
-        email: form.email.value
-      };
-  
-      socket.emit('formSubmit', formData);
-      console.log('Datos del formulario enviados:', formData);
-    });
+function sendData() {
+  const form = document.getElementById('login');
+  const formData = new FormData(form);
+
+  fetch('login.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.text())
+  .then(data => {
+    console.log(formData.user-login);
+    document.getElementById('response').innerHTML = data;
+  })
+  .catch(error => {
+    console.error('Error:', error);
   });
-  
+}

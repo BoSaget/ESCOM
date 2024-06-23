@@ -7,8 +7,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
-        <script src="./js/login.js"></script>
-        <script src="./../node_modules/socket.io/dist/socket.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
 
     <body class="bg-slate-600">
@@ -99,7 +98,7 @@
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit">Ingresar</button>
+                                    <button class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium" onclick="sendData()">Ingresar</button>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +128,7 @@
                             </div>
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="col-start-2 ...">
-                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit">Registrarse</button>
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" type="submit" href="./sign.php">Registrarse</button>
                                 </div>
                             </div>
                         </div>
@@ -140,5 +139,6 @@
         
 
         <script src="./js/navbar.js"></script>
+        <script src="./js/login.js"></script>
     </body>
 </html>
