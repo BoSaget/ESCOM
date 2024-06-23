@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     e.preventDefault();
     var formularioRegistro = document.getElementById('registro');
     var datosRegistro = new FormData(formularioRegistro);
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     //Revisa si ambos campos se encuentran vacios
     if(datosRegistro.get('user-sign') == '' && datosRegistro.get('user-sign-pass') == '')
@@ -66,6 +67,16 @@ document.addEventListener('DOMContentLoaded', function() {
         title: '¡Cuidado!',
         text: 'Ingresa un usuario en registro',
         icon: 'warning',
+        confirmButtonText: 'Aceptar'
+      });
+    }
+
+    else if(emailRegex.test(datosRegistro.get('user-sign')) == false)
+    {
+      Swal.fire({
+        title: 'Error!',
+        text: 'Dirección de correo no valida',
+        icon: 'error',
         confirmButtonText: 'Aceptar'
       });
     }
