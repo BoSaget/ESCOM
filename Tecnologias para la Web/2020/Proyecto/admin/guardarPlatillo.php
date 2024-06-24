@@ -14,20 +14,35 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 if ($data) 
 {
-    $email= $data['email'];
-    $pass=md5($data['pass']);
+    $platillo= $data['platillo'];
+    $tipo= $data['tipo'];
+    $ingredientes= $data['ingredientes'];
+    $notas= $data['notas'];
+    $precio= $data['precio'];
+
+    if($ingredientes == "")
+    {
+        $ingredientes = NULL;
+    }
+
+    if($notas == "")
+    {
+        $notas = NULL;
+    }
 
 
-    $insert = "INSERT INTO `usuarios` (`correo`, `contraseña`) VALUES ('$email','$pass')";
-    $checkcorreo = "SELECT * FROM `usuarios` WHERE `correo` = '$email'";
-    $resultadocorreo = mysqli_query($conexion,$checkcorreo);
+    $insert = "INSERT INTO `menu` (`item`, `tipo`, `ingredientes`, `notas`, `precio` ) VALUES ('$platillo','$tipo','$ingredientes','$notas','$precio')";
+
+    //Checa si ese platillo ya está asignado a ese grupo
+    $checkItem = "SELECT * FROM `menu` WHERE `item` = '$platillo' AND tipo='$tipo'";
+    $resultadoItem = mysqli_query($conexion,$checkItem);
 
     
-    if(mysqli_num_rows($resultadocorreo) == 1)
+    if(mysqli_num_rows($resultadoItem) == 1)
     {
         echo json_encode([
             'status' => 'encontrado',
-            'message' => 'Usuario previamente registrado, favor de intentarlo con una cuenta nueva'
+            'message' => 'Platillo ya registrado en el grupo'
         ]);
     }
     
@@ -45,7 +60,7 @@ if ($data)
         {
             echo json_encode([
                 'status' => 'no registrado',
-                'message' => 'No se pudo registrar usuario, intentelo de nuevo'
+                'message' => 'No se pudo registrar platillo, intentelo de nuevo'
             ]);
         }
     }  

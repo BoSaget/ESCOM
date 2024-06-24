@@ -15,10 +15,13 @@ $data = json_decode(file_get_contents('php://input'), true);
 if ($data) 
 {
     $email= $data['email'];
+    $telefono= $data['telefono'];
+    $nombre= $data['nombre'];
     $pass=md5($data['pass']);
+    $rango= $data['rango'];
 
 
-    $insert = "INSERT INTO `usuarios` (`correo`, `contraseña`) VALUES ('$email','$pass')";
+    $insert = "INSERT INTO `usuarios` (`correo`, `telefono`, `nombre`, `contraseña`, `rango`) VALUES ('$email','$telefono','$nombre','$pass','$rango')";
     $checkcorreo = "SELECT * FROM `usuarios` WHERE `correo` = '$email'";
     $resultadocorreo = mysqli_query($conexion,$checkcorreo);
 

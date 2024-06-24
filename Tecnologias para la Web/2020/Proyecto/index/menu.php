@@ -1,3 +1,8 @@
+<?php
+    $conexion = mysqli_connect("localhost","root","","cafeteria");
+    mysqli_query($conexion, "SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'");
+?>
+
 <!doctype html>
 <html>
     <head>
@@ -6,9 +11,8 @@
         <link href="./../output.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
-        <title>Proyecto/Index</title>
+        <title>Proyecto/Menú</title>
     </head>
 
     <body class="bg-slate-600">
@@ -74,26 +78,57 @@
                 </div>
             </div>
         </nav>
-
+          
+          
         <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center ">
 
             <h1 class="text-3xl font-bold underline">
-                Inicio
+                Menú
             </h1>
 
-            <div class="contain-none leading-relaxed text-justify my-5 mx-2 lg:mx-60">
-                <p class="font-medium lg:text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel augue metus. Praesent consectetur justo non lorem euismod, ut hendrerit dui rhoncus. Aliquam finibus odio ipsum, id molestie nulla imperdiet sit amet. Nunc sem nunc, consequat sit amet dolor nec, sagittis rutrum metus. Duis cursus augue urna, non lobortis odio varius vel. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            <h3 class="text-lg font-bold underline text-left">
+                *NOTA: No se muestra el preico debido al cambio que estos puedan sufrir sin previo aviso
+            </h3>
 
-                    Praesent pulvinar dui purus, sed cursus velit eleifend vel. Suspendisse potenti. Nulla pretium purus a lacinia scelerisque. Aenean accumsan sagittis dui, eu tristique elit vulputate in. Vestibulum lacinia nisl ut purus dapibus, id laoreet turpis malesuada. In semper dolor non faucibus auctor. Quisque eget rutrum quam. Fusce ultricies dui venenatis ligula molestie efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque facilisis mauris interdum tempus auctor. Sed ac blandit lacus, eget bibendum arcu. Sed eu nulla eu nulla malesuada volutpat. Maecenas placerat suscipit purus eget eleifend. Ut tristique cursus elit non commodo.
+            <?php
+                              
+                $sql = "SELECT * FROM  menu WHERE tipo !='Prueba' ORDER BY tipo";
+                $resultado = mysqli_query($conexion,$sql);
+                $info = mysqli_num_rows($resultado);
+                $datos = mysqli_fetch_array($resultado);
+            ?>
 
-                    Vivamus et ipsum tincidunt, volutpat elit ut, tincidunt ligula. Suspendisse lacinia consequat urna, ac egestas sem molestie eu. Duis lorem ante, lacinia vel luctus id, porta sit amet felis. Sed facilisis molestie neque eget congue. Morbi cursus mattis aliquet. Praesent tempor leo neque, ut gravida massa dignissim in. Maecenas placerat enim in quam placerat convallis. Praesent placerat ut tellus vel pulvinar. Quisque a erat tempus purus hendrerit dictum. Maecenas justo enim, vehicula a nisl nec, fermentum ultricies nisi. Vestibulum aliquam hendrerit justo pulvinar consequat. Nullam nibh massa, dapibus a eleifend pharetra, euismod luctus turpis. Fusce egestas, nulla rhoncus vestibulum facilisis, dui mi mattis erat, quis lacinia velit orci vitae nulla. Nullam mattis magna enim, ac aliquet sapien tempor et. Maecenas sed lacus pellentesque, egestas felis in, semper est.
+            <div class="overflow-x-auto lg:px-50">
+                <table class="border-separate border-spacing-2 border border-slate-800 leading-relaxed text-justify min-w-full">
+                    <thead>
+                        <tr>
+                            <th class="border border-slate-900">Platillo</th>
+                            <th class="border border-slate-900">Tipo</th>
+                            <th class="border border-slate-900">Ingredientes</th>
+                            <th class="border border-slate-900">Notas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
 
-                    Cras et nisi quis purus interdum auctor. Ut scelerisque iaculis mauris vel commodo. Aenean dui metus, rhoncus at ultrices in, auctor at felis. Sed vel elit quis neque hendrerit mollis. Quisque et nunc non tellus vestibulum eleifend non et purus. Curabitur in vulputate nulla. Proin suscipit magna augue, in venenatis libero iaculis ut. Aliquam erat volutpat.
-
-                    Morbi enim leo, maximus sit amet felis in, rutrum sodales arcu. Suspendisse potenti. Cras at faucibus sapien. In suscipit a libero ullamcorper tincidunt. Phasellus eget elit felis. Etiam commodo orci eget nibh convallis facilisis. Quisque et odio eu magna auctor mollis ac ornare ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut feugiat elit, quis elementum libero. Donec maximus molestie turpis. Donec rutrum hendrerit vehicula. Vivamus laoreet nisi in ipsum laoreet feugiat. Quisque quis fermentum magna. Duis feugiat bibendum nisl, sed interdum nunc imperdiet ornare. Nunc at accumsan sapien.
-                </p>
+                        <?php
+                        // Recorre todos los resultados
+                        while ($datos = mysqli_fetch_array($resultado)) {
+                        ?>
+                            <tr>
+                                <td class="border border-slate-700"><?php echo $datos["item"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datos["tipo"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datos["ingredientes"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datos["notas"]; ?></td>
+                            </tr>
+                        <?php
+                        }
+                        ?>
+                    </tbody>
+                </table>
             </div>
+        </div>
+
         <script src="./js/navbar.js"></script>
     </body>
 </html>

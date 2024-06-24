@@ -14,12 +14,14 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 if ($data) 
 {
+    $rol= $data['rol'];
     $email= $data['email'];
+    $nombre= $data['nombre'];
     $pass=md5($data['pass']);
 
 
-    $insert = "INSERT INTO `usuarios` (`correo`, `contraseña`) VALUES ('$email','$pass')";
-    $checkcorreo = "SELECT * FROM `usuarios` WHERE `correo` = '$email'";
+    $insert = "INSERT INTO `empleados` (`rol`, `correo`, `nombre`, `contraseña`) VALUES ('$rol','$email','$nombre','$pass')";
+    $checkcorreo = "SELECT * FROM `empleados` WHERE `correo` = '$email'";
     $resultadocorreo = mysqli_query($conexion,$checkcorreo);
 
     

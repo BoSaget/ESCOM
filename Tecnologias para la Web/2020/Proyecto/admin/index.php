@@ -1,3 +1,21 @@
+<?php
+    session_start();
+    if(isset($_SESSION["correo"]) && isset($_SESSION["user"])){
+        
+        $rol = $_SESSION["rol"];
+        $correo = $_SESSION["correo"];
+        $user = $_SESSION["user"];
+
+
+        $conexion = mysqli_connect("localhost","root","","cafeteria");
+        mysqli_query($conexion, "SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'");
+
+        $sqlInfo = "SELECT * FROM `empleados` WHERE `correo`= '$correo' AND `nombre` = '$user'";
+        $resInfo = mysqli_query($conexion,$sqlInfo);
+
+        $info = mysqli_fetch_row($resInfo);
+?>
+
 <!doctype html>
 <html>
     <head>
@@ -6,13 +24,12 @@
         <link href="./../output.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
-        <title>Proyecto/Index</title>
+        <title>Administrción</title>
     </head>
 
     <body class="bg-slate-600">
-        <nav class="bg-gray-800">
+        <nav class="bg-blue-800">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div class="relative flex h-16 items-center justify-between">
                     <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -46,17 +63,17 @@
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                                <a href="./index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a>
-                                <a href="./menu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Menú</a>
-                                <a href="./nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Nosotros</a>
-                                <a href="./faq.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">FAQ</a>
+                                <a href="./index.php" class="bg-blue-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a>
+                                <a href="./modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Modificar Menú</a>
+                                <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Empleados</a>
+                                <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Usuarios</a>
                             </div>
                         </div>
                     </div>
                     <!-- Login -->
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4 left">
-                            <a href="./../login/login.html" class="bg-green-700 rounded-md px-3 py-2 text-sm font-medium">Login</a>
+                            <a href="./logout.php" class="bg-red-700 rounded-md px-3 py-2 text-sm font-medium">Logout</a>
                         </div>
                     </div>
                 </div>
@@ -66,11 +83,11 @@
             <div id="mobile-menu" class="hidden">
                 <div class="space-y-1 px-2 pb-3 pt-2">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="./index.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
-                    <a href="./menu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Menu</a>
-                    <a href="./nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Nosotros</a>
-                    <a href="./faq.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">FAQ</a>
-                    <a href="./../login/login.html" class="bg-green-700 text-white block rounded-md px-3 py-2 text-base font-medium">Login</a>
+                    <a href="./index.html" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
+                    <a href="../modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Modificar Menú</a>
+                    <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
+                    <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
+                    <a href="./logout.php" class="bg-red-700 text-white block rounded-md px-3 py-2 text-base font-medium">Logout</a>
                 </div>
             </div>
         </nav>
@@ -78,7 +95,7 @@
         <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center ">
 
             <h1 class="text-3xl font-bold underline">
-                Inicio
+                Bienvenido <?php echo "$user"; ?>
             </h1>
 
             <div class="contain-none leading-relaxed text-justify my-5 mx-2 lg:mx-60">
@@ -97,3 +114,11 @@
         <script src="./js/navbar.js"></script>
     </body>
 </html>
+
+<?php
+    }
+    else
+    {
+        header("location: ./../login/login.html");
+    }
+?>
