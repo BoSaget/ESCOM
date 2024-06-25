@@ -93,9 +93,7 @@
             <?php
                               
                 $sql = "SELECT * FROM  menu WHERE tipo !='Prueba' ORDER BY tipo";
-                $resultado = mysqli_query($conexion,$sql);
-                $info = mysqli_num_rows($resultado);
-                $datos = mysqli_fetch_array($resultado);
+                $resultadoMenu = mysqli_query($conexion,$sql);
             ?>
 
             <div class="overflow-x-auto lg:px-50">
@@ -113,13 +111,13 @@
 
                         <?php
                         // Recorre todos los resultados
-                        while ($datos = mysqli_fetch_array($resultado)) {
+                        while ($datosMenu = mysqli_fetch_array($resultadoMenu)) {
                         ?>
                             <tr>
-                                <td class="border border-slate-700"><?php echo $datos["item"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["tipo"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["ingredientes"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["notas"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["item"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["tipo"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["ingredientes"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["notas"]; ?></td>
                             </tr>
                         <?php
                         }

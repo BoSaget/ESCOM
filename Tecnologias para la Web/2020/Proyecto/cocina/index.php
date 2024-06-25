@@ -11,9 +11,18 @@
         mysqli_query($conexion, "SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'");
 
         $sqlInfo = "SELECT * FROM `empleados` WHERE `correo`= '$correo' AND `nombre` = '$user'";
-        $resInfo = mysqli_query($conexion,$sqlInfo);
+        // Consulta para obtener todos los pedidos de todos los clientes
+        $sqlPedidos = "SELECT p.id AS pedido_id, p.fecha, p.notas, u.user, 
+        GROUP_CONCAT(CONCAT(m.item, ' x', dp.cantidad) SEPARATOR '<br>') AS detalles
+        FROM pedidos p
+        INNER JOIN usuarios u ON p.user_id = u.id
+        INNER JOIN detalles_pedido dp ON p.id = dp.pedido_id
+        INNER JOIN menu m ON dp.item_id = m.id
+        GROUP BY p.id
+        ORDER BY p.fecha DESC";
 
-        $info = mysqli_fetch_row($resInfo);
+        $resultadoPedidos = mysqli_query($conexion, $sqlPedidos);
+    
 ?>
 
 <!doctype html>
@@ -25,11 +34,11 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
-        <title>Empleados</title>
+        <title>Cocina</title>
     </head>
 
     <body class="bg-slate-600">
-        <nav class="bg-blue-800">
+        <nav class="bg-fuchsia-800">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div class="relative flex h-16 items-center justify-between">
                     <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -63,10 +72,6 @@
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                                <a href="./index.php" class="bg-blue-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a>
-                                <a href="./modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Modificar Menú</a>
-                                <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Empleados</a>
-                                <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Usuarios</a>
                             </div>
                         </div>
                     </div>
@@ -83,78 +88,46 @@
             <div id="mobile-menu" class="hidden">
                 <div class="space-y-1 px-2 pb-3 pt-2">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="./index.php" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
-                    <a href="../modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Modificar Menú</a>
-                    <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
-                    <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
                     <a href="./logout.php" class="bg-red-700 text-white block rounded-md px-3 py-2 text-base font-medium">Logout</a>
                 </div>
             </div>
         </nav>
 
         <div class="container my-5 mx-auto lg:mx-10 flex-auto text-center ">
-
             <h1 class="text-3xl font-bold underline">
                 Bienvenido <?php echo "$user"; ?>
             </h1>
 
-            <h2 class="text-xl font-bold underline">
-                Empleados 
-            </h2>
-
-            <?php
-                              
-                $sql = "SELECT * FROM  empleados ORDER BY rol";
-                $resultadoEmpleados = mysqli_query($conexion,$sql);
-            ?>
-
-            <div class="flex space-x-4 left">
-                <a href="./agregarEmpleado.php" class="bg-green-700 rounded-md px-3 py-2 text-sm font-medium">Agregar Empleado</a>
-            </div>
-
-            <div class="overflow-x-auto lg:px-50">
-                <table class="border-separate border-spacing-2 border border-slate-800 leading-relaxed text-justify min-w-full">
-                    <thead>
-                        <tr>
-                            <th class="border border-slate-900">Editar</th>
-                            <th class="border border-slate-900">Rol</th>
-                            <th class="border border-slate-900">Correo</th>
-                            <th class="border border-slate-900">Nombre</th>
-                            <th class="border border-slate-900">Contraseña</th>
-                            <th class="border border-slate-900">Eliminar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-
-                        <?php
-                        // Recorre todos los resultados
-                        while ($datosEmpleados = mysqli_fetch_array($resultadoEmpleados)) {
-                        ?>
-                            <tr data-id="<?php echo $datosEmpleados["id"]; ?>">
-                                <td class="border border-slate-700">
-                                    <button class="bg-blue-500 text-white px-4 py-2" onclick="editRow(this)">Editar</button>
-                                    <button class="bg-green-500 text-white px-4 py-2 hidden" onclick="saveRow(this)">Guardar</button>
-                                </td>
-                                <td class="border border-slate-700" data-column="rol"><?php echo $datosEmpleados["rol"]; ?></td>
-                                <td class="border border-slate-700" data-column="correo"><?php echo $datosEmpleados["correo"]; ?></td>
-                                <td class="border border-slate-700" data-column="nombre"><?php echo $datosEmpleados["nombre"]; ?></td>
-                                <td class="border border-slate-700" data-column="pass"><?php echo $datosEmpleados["contraseña"]; ?></td>
-                                <td class="border border-slate-700">
-                                    <button class="bg-red-500 text-white px-4 py-2" onclick="deleteRow(this)">Eliminar</button>
-                                </td>
+            <div class="container mx-auto p-4">
+                <h1 class="text-3xl font-bold text-center mb-8">Todos los Pedidos</h1>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white border-gray-200 shadow-sm rounded-lg overflow-hidden">
+                        <thead class="bg-gray-200">
+                            <tr>
+                                <th class="border border-slate-900">Pedido #</th>
+                                <th class="border border-slate-900">Fecha</th>
+                                <th class="border border-slate-900">Cliente</th>
+                                <th class="border border-slate-900">Detalles</th>
+                                <th class="border border-slate-900">Notas</th>
                             </tr>
-                        <?php
-                        }
-                        ?>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            <?php while ($pedido = mysqli_fetch_assoc($resultadoPedidos)) { ?>
+                                <tr>
+                                    <td class="border border-slate-700"><?php echo $pedido['pedido_id']; ?></td>
+                                    <td class="border border-slate-700"><?php echo $pedido['fecha']; ?></td>
+                                    <td class="border border-slate-700"><?php echo $pedido['user']; ?></td>
+                                    <td class="border border-slate-700"><?php echo $pedido['detalles']; ?></td>
+                                    <td class="border border-slate-700"><?php echo nl2br($pedido['notas']); ?></td>
+                                </tr>
+                            <?php } ?>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        </div>
         <script src="./js/navbar.js"></script>
-        <script src="./js/empleados.js"></script>
     </body>
 </html>
 

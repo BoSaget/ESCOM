@@ -83,7 +83,7 @@
             <div id="mobile-menu" class="hidden">
                 <div class="space-y-1 px-2 pb-3 pt-2">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="./index.html" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
+                    <a href="./index.php" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
                     <a href="../modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Modificar Menú</a>
                     <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
                     <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
@@ -104,10 +104,8 @@
 
             <?php
                               
-                $sql = "SELECT * FROM  usuarios ORDER BY rango";
-                $resultado = mysqli_query($conexion,$sql);
-                $info = mysqli_num_rows($resultado);
-                $datos = mysqli_fetch_array($resultado);
+                $sqlUsuarios = "SELECT * FROM  usuarios ORDER BY rango";
+                $resultadoUsuarios = mysqli_query($conexion,$sqlUsuarios);
             ?>
 
             <div class="flex space-x-4 left">
@@ -132,18 +130,18 @@
 
                         <?php
                         // Recorre todos los resultados
-                        while ($datos = mysqli_fetch_array($resultado)) {
+                        while ($datosUsuarios = mysqli_fetch_array($resultadoUsuarios)) {
                         ?>
-                            <tr data-id="<?php echo $datos["id"]; ?>">
+                            <tr data-id="<?php echo $datosUsuarios["id"]; ?>">
                                 <td class="border border-slate-700">
                                     <button class="bg-blue-500 text-white px-4 py-2" onclick="editRow(this)">Editar</button>
                                     <button class="bg-green-500 text-white px-4 py-2 hidden" onclick="saveRow(this)">Guardar</button>
                                 </td>
-                                <td class="border border-slate-700" data-column="correo"><?php echo $datos["correo"]; ?></td>
-                                <td class="border border-slate-700" data-column="telefono"><?php echo $datos["telefono"]; ?></td>
-                                <td class="border border-slate-700" data-column="nombre"><?php echo $datos["nombre"]; ?></td>
-                                <td class="border border-slate-700" data-column="pass"><?php echo $datos["contraseña"]; ?></td>
-                                <td class="border border-slate-700" data-column="rango"><?php echo $datos["rango"]; ?></td>
+                                <td class="border border-slate-700" data-column="correo"><?php echo $datosUsuarios["correo"]; ?></td>
+                                <td class="border border-slate-700" data-column="telefono"><?php echo $datosUsuarios["telefono"]; ?></td>
+                                <td class="border border-slate-700" data-column="nombre"><?php echo $datosUsuarios["nombre"]; ?></td>
+                                <td class="border border-slate-700" data-column="pass"><?php echo $datosUsuarios["contraseña"]; ?></td>
+                                <td class="border border-slate-700" data-column="rango"><?php echo $datosUsuarios["rango"]; ?></td>
                                 <td class="border border-slate-700">
                                     <button class="bg-red-500 text-white px-4 py-2" onclick="deleteRow(this)">Eliminar</button>
                                 </td>

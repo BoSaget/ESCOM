@@ -22,6 +22,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
@@ -153,9 +154,7 @@
             <?php
                               
                 $sql = "SELECT * FROM  menu WHERE tipo !='Prueba' ORDER BY tipo";
-                $resultado = mysqli_query($conexion,$sql);
-                $info = mysqli_num_rows($resultado);
-                $datos = mysqli_fetch_array($resultado);
+                $resultadoMenu = mysqli_query($conexion,$sql);
             ?>
 
             <div class="overflow-x-auto lg:px-50">
@@ -167,6 +166,7 @@
                             <th class="border border-slate-900">Ingredientes</th>
                             <th class="border border-slate-900">Notas</th>
                             <th class="border border-slate-900">Precio</th>
+                            <th class="border border-slate-900">-</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -174,14 +174,33 @@
 
                         <?php
                         // Recorre todos los resultados
-                        while ($datos = mysqli_fetch_array($resultado)) {
+                        while ($datosMenu = mysqli_fetch_array($resultadoMenu)) {
                         ?>
                             <tr>
-                                <td class="border border-slate-700"><?php echo $datos["item"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["tipo"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["ingredientes"]; ?></td>
-                                <td class="border border-slate-700"><?php echo $datos["notas"]; ?></td>
-                                <td class="border border-slate-700">$ <?php echo $datos["precio"]; ?>MXN</td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["item"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["tipo"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["ingredientes"]; ?></td>
+                                <td class="border border-slate-700"><?php echo $datosMenu["notas"]; ?></td>
+                                <td class="border border-slate-700">$ 
+                                    <?php if($rango == "1")
+                                    {
+                                        $precio =  ($datosMenu["precio"]-($datosMenu["precio"]*.20));
+                                    } 
+                                    else
+                                    {
+                                        $precio = $datosMenu["precio"];
+                                    }
+                                    echo $precio
+                                    ?>MXN
+                                </td>
+                                <td class="border border-slate-800">
+                                    <button class="add-to-cart bg-blue-500 text-white px-4 py-2" 
+                                            data-id="<?php echo $datosMenu['id']; ?>" 
+                                            data-name="<?php echo $datosMenu['item']; ?>" 
+                                            data-price="<?php echo $precio; ?>">
+                                            Añadir al carrito
+                                    </button>
+                                </td>
                             </tr>
                         <?php
                         }
@@ -189,8 +208,29 @@
                     </tbody>
                 </table>
             </div>
+
+             <!-- Carrito Container -->
+            <div class="carrito my-5 p-5 bg-sale-800 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold mb-4">Carrito de Compras</h2>
+                <ul id="carrito-list" class="list-disc pl-5">
+                    <!-- Carrito Items -->
+                </ul>
+                <div class="mt-4">
+                    <strong>Total: $<span id="carrito-total">0</span> MXN</strong>                    
+                </div>
+                <div class="mt-4">
+                    <label for="notas-pedido" class="block text-sm font-medium text-slate-950">Notas del Pedido</label>
+                    <textarea id="notas-pedido" rows="4" class="mt-1 block w-full rounded-md bg-gray-400 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
+                </div>
+                <button id="generar-pedido" class="mt-4 bg-emerald-500 text-white px-4 py-2 rounded">Generar Pedido</button>
+            </div>
+
         </div>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="./js/navbar.js"></script>
+        <script src="./js/carrito.js"></script>
     </body>
 </html>
 

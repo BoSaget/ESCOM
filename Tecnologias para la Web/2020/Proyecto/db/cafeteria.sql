@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 24, 2024 at 08:25 PM
+-- Generation Time: Jun 25, 2024 at 08:23 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -24,6 +24,26 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `detalles_pedido`
+--
+
+CREATE TABLE `detalles_pedido` (
+  `id` int(11) NOT NULL,
+  `pedido_id` int(11) DEFAULT NULL,
+  `item_id` int(11) DEFAULT NULL,
+  `cantidad` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `detalles_pedido`
+--
+
+INSERT INTO `detalles_pedido` (`id`, `pedido_id`, `item_id`, `cantidad`) VALUES
+(1, 1, 35, 3);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `empleados`
 --
 
@@ -40,11 +60,11 @@ CREATE TABLE `empleados` (
 --
 
 INSERT INTO `empleados` (`id`, `rol`, `correo`, `nombre`, `contraseña`) VALUES
-(1, 'Admin', '0@pl.com', '0', '0'),
-(2, 'Admin', 'nerick@pl.com', 'Nerick', 'c4ca4238a0b923820dcc509a6f75849b'),
-(3, 'Admin', 'leila@pl.com', 'Leila', 'c81e728d9d4c2f636f067f89cc14862c'),
+(1, 'Admin', '0@pl.com', '0', 'cfcd208495d565ef66e7dff9f98764da'),
+(2, 'Admin', 'nerick@pl.com', 'Nerick', '7b8b965ad4bca0e41ab51de7b31363a1'),
+(3, 'Admin', 'leila@pl.com', 'Leila', '2db95e8e1a9267b7a1188556b2013b33'),
 (4, 'Admin', 'leon@pl.com', 'Leon', '3f071f4f163d68551f4fc1544c7f69a6'),
-(5, 'Cocina', 'c@pl.com', 'Chef 1', 'cbb4581ba3ada1ddef9b431eef2660ce'),
+(5, 'Cocina', 'c@pl.com', 'Chef 1', '4a8a08f09d37b73795649038408b5f33'),
 (9, 'Cocina', 'a@pl.com', 'A', '0cc175b9c0f1b6a831c399e269772661');
 
 -- --------------------------------------------------------
@@ -110,6 +130,26 @@ INSERT INTO `menu` (`id`, `item`, `tipo`, `ingredientes`, `notas`, `precio`) VAL
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `pedidos`
+--
+
+CREATE TABLE `pedidos` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `fecha` datetime DEFAULT NULL,
+  `notas` varchar(1000) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `pedidos`
+--
+
+INSERT INTO `pedidos` (`id`, `user_id`, `fecha`, `notas`) VALUES
+(1, 2, '2024-06-25 19:25:13', 'asdfsadg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `usuarios`
 --
 
@@ -127,13 +167,21 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `correo`, `telefono`, `nombre`, `contraseña`, `rango`) VALUES
-(1, '1@1.com', 1111111111, NULL, 'c4ca4238a0b923820dcc509a6f75849b', 0),
+(1, '1@1.com', 1111111111, '', 'c4ca4238a0b923820dcc509a6f75849b', 0),
 (2, 'a@a.com', 22222222, 'Aaa', '0cc175b9c0f1b6a831c399e269772661', 0),
-(4, 'b@b.com', 33333333, '', '92eb5ffee6ae2fec3ad71c777531578f', 1);
+(4, 'b@b.com', 3333333333, 'Juan', '92eb5ffee6ae2fec3ad71c777531578f', 1);
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `detalles_pedido`
+--
+ALTER TABLE `detalles_pedido`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `pedido_id` (`pedido_id`),
+  ADD KEY `item_id` (`item_id`);
 
 --
 -- Indexes for table `empleados`
@@ -148,6 +196,13 @@ ALTER TABLE `menu`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `pedidos`
+--
+ALTER TABLE `pedidos`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`);
+
+--
 -- Indexes for table `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -156,6 +211,12 @@ ALTER TABLE `usuarios`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `detalles_pedido`
+--
+ALTER TABLE `detalles_pedido`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `empleados`
@@ -167,13 +228,36 @@ ALTER TABLE `empleados`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+
+--
+-- AUTO_INCREMENT for table `pedidos`
+--
+ALTER TABLE `pedidos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `detalles_pedido`
+--
+ALTER TABLE `detalles_pedido`
+  ADD CONSTRAINT `detalles_pedido_ibfk_1` FOREIGN KEY (`pedido_id`) REFERENCES `pedidos` (`id`),
+  ADD CONSTRAINT `detalles_pedido_ibfk_2` FOREIGN KEY (`item_id`) REFERENCES `menu` (`id`);
+
+--
+-- Constraints for table `pedidos`
+--
+ALTER TABLE `pedidos`
+  ADD CONSTRAINT `pedidos_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `usuarios` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

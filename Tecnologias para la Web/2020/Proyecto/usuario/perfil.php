@@ -11,9 +11,7 @@
         mysqli_query($conexion, "SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'");
 
         $sqlInfo = "SELECT * FROM `usuarios` WHERE `correo`= '$correo'";
-        $resInfo = mysqli_query($conexion,$sqlInfo);
-
-        $info = mysqli_fetch_row($resInfo);
+        $resultado = mysqli_query($conexion,$sqlInfo);
 ?>
 
 <!doctype html>
@@ -22,6 +20,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./../output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
 
@@ -151,18 +150,11 @@
                 Perfil
             </h1>
 
-            <?php
-                              
-                $sql = "SELECT * FROM  usuarios WHERE correo ='correo'";
-                $resultado = mysqli_query($conexion,$sql);
-                $info = mysqli_num_rows($resultado);
-                $datos = mysqli_fetch_array($resultado);
-            ?>
-
             <div class="overflow-x-auto lg:px-50">
             <table class="border-separate border-spacing-2 border border-slate-800 leading-relaxed text-justify min-w-full">
                     <thead>
                         <tr>
+                            <th class="border border-slate-900">-</th>
                             <th class="border border-slate-900">Correo</th>
                             <th class="border border-slate-900">Telefono</th>
                             <th class="border border-slate-900">Nombre</th>
@@ -178,6 +170,10 @@
                         while ($datos = mysqli_fetch_array($resultado)) {
                         ?>
                             <tr data-id="<?php echo $datos["id"]; ?>">
+                                <td class="border border-slate-700">
+                                    <button class="bg-blue-500 text-white px-4 py-2" onclick="editRow(this)">Editar</button>
+                                    <button class="bg-green-500 text-white px-4 py-2 hidden" onclick="saveRow(this)">Guardar</button>
+                                </td>
                                 <td class="border border-slate-700" data-column="correo"><?php echo $datos["correo"]; ?></td>
                                 <td class="border border-slate-700" data-column="telefono"><?php echo $datos["telefono"]; ?></td>
                                 <td class="border border-slate-700" data-column="nombre"><?php echo $datos["nombre"]; ?></td>
@@ -191,7 +187,11 @@
                     </tbody>
                 </table>
             </div>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="./js/navbar.js"></script>
+        <script src="./js/perfil.js"></script>
     </body>
 </html>
 

@@ -83,7 +83,7 @@
             <div id="mobile-menu" class="hidden">
                 <div class="space-y-1 px-2 pb-3 pt-2">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="./index.html" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
+                    <a href="./index.php" class="bg-blue-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
                     <a href="../modificarMenu.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Modificar Menú</a>
                     <a href="./empleados.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
                     <a href="./usuarios.php" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Empleados</a>
@@ -105,9 +105,7 @@
             <?php
                               
                 $sql = "SELECT * FROM  menu ORDER BY tipo";
-                $resultado = mysqli_query($conexion,$sql);
-                $info = mysqli_num_rows($resultado);
-                $datos = mysqli_fetch_array($resultado);
+                $resultadoMenu = mysqli_query($conexion,$sql);
             ?>
 
             <div class="flex space-x-4 left">
@@ -132,18 +130,18 @@
 
                         <?php
                         // Recorre todos los resultados
-                        while ($datos = mysqli_fetch_array($resultado)) {
+                        while ($datosMenu = mysqli_fetch_array($resultadoMenu)) {
                         ?>
-                            <tr data-id="<?php echo $datos["id"]; ?>">
+                            <tr data-id="<?php echo $datosMenu["id"]; ?>">
                                 <td class="border border-slate-700">
                                     <button class="bg-blue-500 text-white px-4 py-2" onclick="editRow(this)">Editar</button>
                                     <button class="bg-green-500 text-white px-4 py-2 hidden" onclick="saveRow(this)">Guardar</button>
                                 </td>
-                                <td class="border border-slate-700" data-column="item"><?php echo $datos["item"]; ?></td>
-                                <td class="border border-slate-700" data-column="tipo"><?php echo $datos["tipo"]; ?></td>
-                                <td class="border border-slate-700" data-column="ingredientes"><?php echo $datos["ingredientes"]; ?></td>
-                                <td class="border border-slate-700" data-column="notas"><?php echo $datos["notas"]; ?></td>
-                                <td class="border border-slate-700" data-column="precio">$<?php echo $datos["precio"]; ?> MXN</td>
+                                <td class="border border-slate-700" data-column="item"><?php echo $datosMenu["item"]; ?></td>
+                                <td class="border border-slate-700" data-column="tipo"><?php echo $datosMenu["tipo"]; ?></td>
+                                <td class="border border-slate-700" data-column="ingredientes"><?php echo $datosMenu["ingredientes"]; ?></td>
+                                <td class="border border-slate-700" data-column="notas"><?php echo $datosMenu["notas"]; ?></td>
+                                <td class="border border-slate-700" data-column="precio">$<?php echo $datosMenu["precio"]; ?> MXN</td>
                                 <td class="border border-slate-700">
                                     <button class="bg-red-500 text-white px-4 py-2" onclick="deleteRow(this)">Eliminar</button>
                                 </td>

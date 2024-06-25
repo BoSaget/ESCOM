@@ -62,6 +62,7 @@ if ($data)
             if($info == 1)
             {
                 
+                $id=$datos[0];
                 $correo=$datos[1];
                 $user=$datos[3];
                 $rango=$datos[5];
@@ -70,6 +71,7 @@ if ($data)
                 $_SESSION["correo"] = $correo;
                 $_SESSION["user"] = $user;
                 $_SESSION["rango"] = $rango;
+                $_SESSION["user_id"] = $id;
 
                 echo json_encode([
                     'status' => 'success',
@@ -92,6 +94,7 @@ if ($data)
             $datos = mysqli_fetch_row($resultado);
             if($info == 1)
             {
+                $id=$datos[0];
                 $correo=$datos[1];
                 $user=$datos[3];
                 $rango=$datos[5];
@@ -100,6 +103,7 @@ if ($data)
                 $_SESSION["correo"] = $correo;
                 $_SESSION["user"] = $user;
                 $_SESSION["rango"] = $rango;
+                $_SESSION["user_id"] = $id;
 
                 echo json_encode([
                     'status' => 'success',
