@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <link href="./../output.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-slate-600">
+        
+        <title>Formulario</title>
+            <div class="lg:col-start-5 lg:col-span-2 my-3 mx-6">
+                <form id="registro" autocomplete="off">
+                        <div class="rounded-md bg-gray-100 py-2 text-base text-center">
+                            <div class="text-2xl">Borrar</div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="col-span-2...">
+                                    <div class="text-center text-2xl font-medium">Borrado</div>
+                                </div>
+                                <br>
+                                <div class="...">
+                                    <div>Id</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="number" id="user-id" name="user-id"class="rounded-md px-3 py-2">
+                                </div>
+                                
+
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="col-start-2 ...">
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" id="delete-button">Registrarse</button>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="response"></div>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/registro.js"></script>
+    </body>
+</html>

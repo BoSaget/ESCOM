@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <link href="./../output.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-slate-600">
+        
+        <title>Formulario</title>
+            <div class="lg:col-start-5 lg:col-span-2 my-3 mx-6">
+                <form id="registro" autocomplete="off">
+                        <div class="rounded-md bg-gray-100 py-2 text-base text-center">
+                            <div class="text-2xl">Registro</div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="col-span-2...">
+                                    <div class="text-center text-2xl font-medium">Datos Personales</div>
+                                </div>
+                                <br>
+                                <div class="...">
+                                    <div>Nombre</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-name" name="user-name"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="...">
+                                    <div>Apellido</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-lastname" name="user-lastname"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="...">
+                                    <div>Dirección</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-dir" name="user-dir"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+                                <div class="...">
+                                    <div>Telefono</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="number" id="user-tel" name="user-tel"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+                                <div class="...">
+                                    <div>Correo</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-mail" name="user-mail"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+                                <div class="...">
+                                    <div>Documento</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-doc" name="user-doc"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+                                <div class="...">
+                                    <div>Fecha de nacimiento</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="date" id="user-birth" name="user-birth"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="col-span-2"></div>
+
+                                <div class="...">
+                                    <div class="text-center text-2xl font-medium">Capacitación</div>
+                                </div>
+                                <br>
+                                <div class="...">
+                                    <div>Curso</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <select id="user-course" name="user-course" class="rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                                        <option value="Cocina">Baile</option>
+                                        <option value="Baile">Cocina</option>
+                                    </select>
+                                </div>
+                                <div class="...">
+                                    <div>Horario</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <select id="course-hour" name="course-hour" class="rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                                        <option value="10-11AM">10 AM - 11 AM</option>
+                                        <option value="9-10PM">9PM - 10 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="...">
+                                    <div class="text-center text-2xl font-medium">Plan de Pago</div>
+                                </div>
+                                <br>
+                                <div class="col-span-2">
+                                    <div>Contado                            Moneda</div>
+                                </div>
+                                <div class="...">
+                                    <input type="checkbox" id="user-contado" name="user-contado"class="rounded-md px-3 py-2" value="1">
+                                </div>
+                                <div class="col-span-2">
+                                    <div>Credito                           Tarjeta</div>
+                                </div>
+                                <div class="...">
+                                    <input type="checkbox" id="user-credito" name="user-credito"class="rounded-md px-3 py-2" value="1">
+                                </div>
+                            
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="col-span-2...">
+                                    <div class="text-center text-2xl font-medium">Datos de la institucion</div>
+                                </div>
+                                <br>
+                                <div class="...">
+                                    <div>N° de Contrato</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="number" id="user-contract" name="user-contract"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="...">
+                                    <div>Persona que atendio</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="text" id="user-personal" name="user-personal"class="rounded-md px-3 py-2">
+                                </div>
+                                <div class="...">
+                                    <div>Fecha de Inscripcion</div>
+                                </div>
+                                <div class="col-span-2 ...">
+                                    <input type="date" id="user-sign-date" name="user-sign-date"class="rounded-md px-3 py-2">
+                                </div>    
+                            </div>
+
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="col-start-2 ...">
+                                    <button class="bg-blue-700 text-white block rounded-md px-3 py-2 text-base font-medium" id="sign-button">Registrarse</button>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="response"></div>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/8a3c5cedf1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/registro.js"></script>
+    </body>
+</html>
