@@ -1,5 +1,5 @@
 package com.example.holamundo
 
-fun HolaMundo(){
+fun main() {
     print("Hola Mundo")
 }
