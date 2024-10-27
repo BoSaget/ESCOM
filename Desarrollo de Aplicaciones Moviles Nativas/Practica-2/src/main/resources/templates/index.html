@@ -8,7 +8,31 @@
         <link th:href="@{/css/styles.css}" rel="stylesheet" type="text/css">
     </head>
 
-    <body class="bg-cyan-600 text-center">
-        <h1 class="text-4xl font-bold text-cyan-100">¡Hola desde Spring Boot con Tailwind CSS!</h1>
+    <body class="bg-gradient-to-b from-cyan-500 via-teal-600 to-emerald-600 h-screen flex items-center justify-center">
+        <div class="text-center w-full max-w-xs">
+            <h1 class="text-4xl font-bold text-cyan-100 mb-4">Login</h1>
+            <form class="bg-slate-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <h2 class="text-center text-2xl font-bold mb-6">Iniciar Sesión</h2>
+                <div class="mb-4">
+                    <label class="block text-slate-700 text-sm font-bold mb-2" for="username">
+                        Usuario
+                    </label>
+                    <input class="bg-slate-100 shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="Tu usuario" required>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-slate-700 text-sm font-bold mb-2" for="password">
+                        Contraseña
+                    </label>
+                    <input class="bg-slate-100 shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password" type="password" placeholder="Tu contraseña" required>
+                </div>
+                <div class="flex justify-center"> <!-- Cambiado para centrar el botón -->
+                    <button class="bg-gradient-to-r from-teal-400 to-cyan-500 hover:from-pink-500 hover:to-amber-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                        Iniciar Sesión
+                    </button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
