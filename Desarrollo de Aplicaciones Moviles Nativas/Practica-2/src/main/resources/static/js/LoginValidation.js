@@ -1,49 +1,24 @@
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evitar el envío del formulario
+document.addEventListener("DOMContentLoaded", function () {
+    const loginForm = document.getElementById("loginForm");
 
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+    loginForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Evita el envío del formulario
 
-    if (username === "" || password === "") {
-        Swal.fire({
-            title: 'Campos vacíos',
-            text: 'Por favor, completa todos los campos antes de iniciar sesión.',
-            icon: 'warning',
-            confirmButtonText: 'Aceptar'
-        });
-        return; // Salir si hay campos vacíos
-    }
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value.trim();
 
-    // Hacer una solicitud de inicio de sesión
-    fetch('/api/users/login', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ usuario: username, contraseña: password })
-    })
-    .then(response => {
-        if (response.ok) {
-            // Redirigir a la pantalla de inicio
-            window.location.href = '/home'; // Asegúrate de que esta ruta esté configurada en tu aplicación
-        } else {
-            return response.text().then(text => {
-                Swal.fire({
-                    title: 'Error',
-                    text: text, // Mensaje de error de la respuesta
-                    icon: 'error',
-                    confirmButtonText: 'Aceptar'
-                });
+        // Validación de campos
+        if (username === "" || password === "") {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Por favor, completa todos los campos.',
+                confirmButtonText: 'Aceptar'
             });
+            return;
         }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        Swal.fire({
-            title: 'Error',
-            text: 'Ocurrió un error en el servidor.',
-            icon: 'error',
-            confirmButtonText: 'Aceptar'
-        });
+
+        // Si la validación es exitosa, puedes enviar el formulario
+        loginForm.submit();
     });
 });

@@ -1,4 +1,4 @@
-package ipn.mx.Practica2.Config; // Ajusta esto según donde lo hayas creado
+package ipn.mx.Practica2.Config;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
