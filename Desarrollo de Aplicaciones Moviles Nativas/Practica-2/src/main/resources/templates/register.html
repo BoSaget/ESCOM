@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link th:href="@{/css/styles.css}" rel="stylesheet" type="text/css">
+    <!-- SweetAlert2 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body class="bg-gradient-to-b from-cyan-500 via-teal-600 to-emerald-600 h-screen flex items-center justify-center">
+    <div class="text-center w-full max-w-md p-8 bg-white rounded-lg shadow-md bg-slate-300">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">Registro de Usuario</h1>
+        <form th:action="@{/register}" method="post">
+            <div class="mb-4">
+                <label for="username" class="block text-left text-gray-700">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <div class="mb-4">
+                <label for="firstName" class="block text-left text-gray-700">Nombre:</label>
+                <input type="text" id="firstName" name="firstName" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <div class="mb-4">
+                <label for="lastName" class="block text-left text-gray-700">Apellido:</label>
+                <input type="text" id="lastName" name="lastName" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-left text-gray-700">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-left text-gray-700">Contraseña:</label>
+                <input type="password" id="password" name="password" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <div class="mb-4">
+                <label for="confirmPassword" class="block text-left text-gray-700">Confirmar Contraseña:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required class="border border-gray-300 p-2 w-full rounded bg-slate-200">
+            </div>
+            <button type="submit" class="bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-cyan-400 hover:to-cyan-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full mb-4">
+                Registrarse
+            </button>
+            <a href="/" class="bg-gradient-to-r from-red-400 to-red-500 hover:from-slate-400 hover:to-slate-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
+                Regresar
+            </a>
+        </form>
+        <div class="mt-4">
+            <a href="/login" class="text-blue-500 hover:underline">¿Ya tienes una cuenta? Inicia sesión</a>
+        </div>
+    </div>
+    <!-- SweetAlert2 Script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/registerValidation.js"></script> <!-- Referencia al archivo de validaciones -->
+</body>
+</html>
