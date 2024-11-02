@@ -1,19 +1,24 @@
-// Obtener el formulario y añadir el evento de submit
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    // Obtener los valores de los campos
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+document.addEventListener("DOMContentLoaded", function () {
+    const loginForm = document.getElementById("loginForm");
 
-    // Verificar si algún campo está vacío
-    if (username === "" || password === "") {
-        event.preventDefault(); // Evitar que se envíe el formulario
+    loginForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Evita el envío del formulario
 
-        // Mostrar SweetAlert
-        Swal.fire({
-            title: 'Campos vacíos',
-            text: 'Por favor, completa todos los campos antes de iniciar sesión.',
-            icon: 'warning',
-            confirmButtonText: 'Aceptar'
-        });
-    }
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value.trim();
+
+        // Validación de campos
+        if (username === "" || password === "") {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Por favor, completa todos los campos.',
+                confirmButtonText: 'Aceptar'
+            });
+            return;
+        }
+
+        // Si la validación es exitosa, puedes enviar el formulario
+        loginForm.submit();
+    });
 });

@@ -1,4 +1,4 @@
-package ipn.mx.Practica2.Config; // Ajusta esto según donde lo hayas creado
+package ipn.mx.Practica2.Config;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
@@ -8,5 +8,10 @@ public class PasswordUtils {
 
     public static String encrypt(String password) {
         return passwordEncoder.encode(password);
+    }
+
+     // Método para verificar la contraseña
+    public static boolean verify(String inputPassword, String storedPassword) {
+        return passwordEncoder.matches(inputPassword, storedPassword);
     }
 }

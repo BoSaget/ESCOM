@@ -27,7 +27,8 @@ public class UserController {
             String encryptedPassword = PasswordUtils.encrypt(user.getContraseña());
             user.setContraseña(encryptedPassword);
 
-            System.out.println(user); // Muestra los valores recibidos
+            // Muestra los valores recibidos
+            //System.out.println(user);
             
             UserModel newUser = userRepository.save(user);
             return new ResponseEntity<>(newUser, HttpStatus.CREATED);
