@@ -14,7 +14,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(authz -> authz
-                .requestMatchers("/", "/register", "/login", "/css/**", "/js/**").permitAll() // Rutas públicas
+                .requestMatchers("/", "/register", "/login", "/css/**", "/js/**", "/api/register").permitAll() // Permitir el acceso a la ruta /api/register
                 .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
             )
             .formLogin(form -> form
