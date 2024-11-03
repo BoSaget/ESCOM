@@ -1,6 +1,8 @@
 package ipn.com.mx.Practica2.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,32 +23,53 @@ public class RegisterController {
     @Autowired
     private PasswordEncoderService passwordEncoderService;
 
-    // Manejar la solicitud GET para mostrar el formulario de registro
     @GetMapping
     public String showRegistrationForm() {
         return "register"; // Devuelve el nombre del archivo HTML que contiene el formulario
     }
 
-    // Manejar la solicitud POST para procesar el registro
     @PostMapping
-    public String registerUser(@RequestParam String username, 
-                                @RequestParam String firstName, 
-                                @RequestParam String lastName, 
-                                @RequestParam String email, 
-                                @RequestParam String password) {
-        
-        RegisterModel registerModel = new RegisterModel();
-        registerModel.setUsername(username);
-        registerModel.setFirstName(firstName);
-        registerModel.setLastName(lastName);
-        registerModel.setEmail(email);
-        
-        // Encriptar la contraseña antes de guardarla
-        String encryptedPassword = passwordEncoderService.encode(password);
-        registerModel.setPassword(encryptedPassword); 
+    public ResponseEntity<String> registerUser(
+            @RequestParam String username, 
+            @RequestParam String firstName, 
+            @RequestParam String lastName, 
+            @RequestParam String email, 
+            @RequestParam String password,
+            @RequestParam String confirmPassword) { // Asegúrate de recibir confirmPassword
 
-        userRepository.save(registerModel);
+        try {
+            // Verificar si el usuario ya existe
+            if (userRepository.existsByUsername(username)) {
+                return ResponseEntity.status(HttpStatus.CONFLICT)
+                        .body("El nombre de usuario ya está en uso.");
+            }
 
-        return "redirect:/"; // Redirigir a la página de inicio o a otra página
+            if (userRepository.existsByEmail(email)) {
+                return ResponseEntity.status(HttpStatus.CONFLICT)
+                        .body("El correo ya está en uso.");
+            }
+
+            // Crear una instancia de RegisterModel y configurar sus atributos
+            RegisterModel registerModel = new RegisterModel();
+            registerModel.setUsername(username);
+            registerModel.setFirstName(firstName);
+            registerModel.setLastName(lastName);
+            registerModel.setEmail(email);
+
+            // Encriptar la contraseña antes de guardarla
+            String encryptedPassword = passwordEncoderService.encode(password);
+            registerModel.setPassword(encryptedPassword);
+
+            // Guardar el usuario en la base de datos
+            userRepository.save(registerModel);
+
+            return ResponseEntity.ok("Ya puede iniciar sesion");
+
+        } catch (Exception e) {
+            // Manejo de cualquier excepción no prevista
+            e.printStackTrace();
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Ha ocurrido un error en el servidor");
+        }
     }
 }

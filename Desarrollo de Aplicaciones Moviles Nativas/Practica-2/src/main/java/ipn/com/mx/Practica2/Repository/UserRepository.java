@@ -10,7 +10,9 @@ public interface UserRepository extends JpaRepository<RegisterModel, Long> {
     
     // Método para encontrar un usuario por nombre de usuario
     RegisterModel findByUsername(String username);
+    boolean existsByUsername(String username);
     
     // Método para encontrar un usuario por correo electrónico
     RegisterModel findByEmail(String email);
+    boolean existsByEmail(String email);
 }
