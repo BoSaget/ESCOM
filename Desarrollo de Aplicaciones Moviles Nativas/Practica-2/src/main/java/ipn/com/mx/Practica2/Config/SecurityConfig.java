@@ -14,12 +14,13 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(authz -> authz
-                .requestMatchers("/", "/register", "/login", "/css/**", "/js/**", "/api/register").permitAll() // Permitir el acceso a la ruta /api/register
+                .requestMatchers("/", "/register", "/login", "/css/**", "/js/**", "/api/register").permitAll() // Rutas públicas
                 .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
             )
             .formLogin(form -> form
                 .loginPage("/") // Página de inicio de sesión personalizada
                 .permitAll() // Permitir que todos accedan a la página de inicio de sesión
+                .defaultSuccessUrl("/home", true) // Redirigir a /home después del inicio de sesión exitoso
             )
             .logout(logout -> logout
                 .permitAll() // Permitir que todos cierren sesión
