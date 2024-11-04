@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2024 at 07:51 AM
+-- Generation Time: Nov 04, 2024 at 04:56 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -48,18 +48,21 @@ INSERT INTO `roles` (`id`, `nombre`) VALUES
 
 CREATE TABLE `usuarios` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `nombre` varchar(255) DEFAULT NULL,
-  `apellido` varchar(255) DEFAULT NULL,
-  `correo` varchar(255) DEFAULT NULL,
-  `usuario` varchar(255) DEFAULT NULL,
-  `contraseña` varchar(255) NOT NULL,
-  `rol_id` int(11) DEFAULT 2,
   `email` varchar(255) DEFAULT NULL,
   `first_name` varchar(255) DEFAULT NULL,
   `last_name` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-  `username` varchar(255) DEFAULT NULL
+  `rol_id` int(11) DEFAULT 2
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `email`, `first_name`, `last_name`, `username`, `password`, `rol_id`) VALUES
+(1, 'ltejeda@eadm.com', 'Leon', 'Tejeda', 'ltejeda', '$2a$10$DjXRg6Ijfrup0P4QRc7K8e0QbwdpHYkLvSi6yaurOkE76Qe2Av45.', 1),
+(19, 'a@a.com', 'a', 'a', 'a', '$2a$10$Q76BRlQ76EiL1Y1kzPwvaez07mdTRCpkkELCtpwcUUkr449gHXRWK', 2);
 
 --
 -- Indexes for dumped tables
@@ -77,8 +80,6 @@ ALTER TABLE `roles`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `correo` (`correo`),
-  ADD UNIQUE KEY `usuario` (`usuario`),
   ADD UNIQUE KEY `UKkfsp0s1tflm1cwlj8idhqsad0` (`email`),
   ADD UNIQUE KEY `UKm2dvbwfge291euvmk6vkkocao` (`username`),
   ADD KEY `rol_id` (`rol_id`);
@@ -97,7 +98,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- Constraints for dumped tables
