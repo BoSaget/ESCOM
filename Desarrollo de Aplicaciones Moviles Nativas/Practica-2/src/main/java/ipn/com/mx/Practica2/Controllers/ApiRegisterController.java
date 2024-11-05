@@ -23,27 +23,31 @@ public class ApiRegisterController {
     private PasswordEncoderService passwordEncoderService;
 
     @PostMapping("/register")
-    public ResponseEntity<String> registerUser(@RequestBody RegisterModel registerModel) {
+    public ResponseEntity<String> registerUser(@RequestBody RegisterModel user) {
         try {
+            
             // Verificar si el usuario ya existe
-            if (userRepository.existsByUsername(registerModel.getUsername())) {
+            if (userRepository.existsByUsername(user.getUsername())) {
                 return ResponseEntity.status(HttpStatus.CONFLICT)
                         .body("El nombre de usuario ya está en uso.");
             }
 
-            if (userRepository.existsByEmail(registerModel.getEmail())) {
+            if (userRepository.existsByEmail(user.getEmail())) {
                 return ResponseEntity.status(HttpStatus.CONFLICT)
                         .body("El correo ya está en uso.");
             }
-
-            System.out.println(registerModel); // Muestra los valores recibidos
+            
 
             // Encriptar la contraseña antes de guardarla
-            String encryptedPassword = passwordEncoderService.encode(registerModel.getPassword());
-            registerModel.setPassword(encryptedPassword);
+            String encryptedPassword = passwordEncoderService.encode(user.getPassword());
+            user.setPassword(encryptedPassword);
+
+            System.out.println(user); // Muestra los valores recibidos
+
+           
 
             // Guardar el usuario en la base de datos
-            userRepository.save(registerModel);
+            userRepository.save(user);
 
             return ResponseEntity.ok("Registro exitoso. Ya puede iniciar sesión.");
 

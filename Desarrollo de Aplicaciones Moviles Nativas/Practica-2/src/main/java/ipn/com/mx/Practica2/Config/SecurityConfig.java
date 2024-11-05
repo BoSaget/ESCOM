@@ -13,6 +13,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
+            .csrf().disable() // Deshabilita la protección CSRF para pruebas con postman
             .authorizeHttpRequests(authz -> authz
                 .requestMatchers("/", "/register", "/login", "/css/**", "/js/**", "/api/register").permitAll() // Rutas públicas
                 .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
