@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 
 @Configuration
 @EnableWebSecurity
@@ -19,14 +21,21 @@ public class SecurityConfig {
                 .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
             )
             .formLogin(form -> form
-                .loginPage("/") // Página de inicio de sesión personalizada
+                .loginPage("/login") // Página de inicio de sesión personalizada
                 .permitAll() // Permitir que todos accedan a la página de inicio de sesión
                 .defaultSuccessUrl("/home", true) // Redirigir a /home después del inicio de sesión exitoso
             )
             .logout(logout -> logout
+                .logoutUrl("/logout") // URL de logout personalizada
+                .logoutSuccessUrl("/login?logout=true") // URL después del logout exitoso
                 .permitAll() // Permitir que todos cierren sesión
             );
 
         return http.build();
+    }
+
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
+        return authenticationConfiguration.getAuthenticationManager();
     }
 }

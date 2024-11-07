@@ -35,7 +35,7 @@ public class RegisterController {
             @RequestParam String lastName, 
             @RequestParam String email, 
             @RequestParam String password,
-            @RequestParam String confirmPassword) { // Asegúrate de recibir confirmPassword
+            @RequestParam String confirmPassword) {
 
         try {
             // Verificar si el usuario ya existe
