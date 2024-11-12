@@ -26,44 +26,39 @@ public class LoginController {
     private UserRepository userRepository;
 
     @GetMapping
-    public String showLogingForm() {
+    public String showLoginForm() {
         return "login"; // Devuelve el nombre del archivo HTML que contiene el formulario
     }
 
     @PostMapping
-    public ResponseEntity <String> loginUser(
+    public ResponseEntity<String> loginUser(
             @RequestParam String identifier, 
             @RequestParam String password) {
 
         try {
-            
-            // Verificar si el usuario ya existe
-            if (!userRepository.existsByUsername(identifier) && !userRepository.existsByEmail(identifier)) {
+
+            // Buscar usuario por nombre de usuario o correo
+            if (!userRepository.existsByEmail(identifier) && !userRepository.existsByUsername(identifier)) {
                 return ResponseEntity.status(HttpStatus.CONFLICT)
-                            .body("Usuario incorrecto");
+                                     .body("Usuario incorrecto");
             }
-            
+
             Authentication auth = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(identifier, password)
             );
             SecurityContextHolder.getContext().setAuthentication(auth);
-            
-            return ResponseEntity.ok("Ventarrones");
+
+            return ResponseEntity.ok("Bienvenido, " + auth.getName() + "!");
             
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-            .body("Contraseña incorrecta");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                                 .body("Credenciales incorrectas");
         }
     }
-
-    /*
+    
     @GetMapping("/logout")
-    public String logoutPage(HttpServletRequest request, HttpServletResponse response) {
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        if (auth != null) {
-            new SecurityContextLogoutHandler().logout(request, response, auth);
-        }
+    public String logout() {
+        SecurityContextHolder.clearContext();
         return "redirect:/login?logout=true";
     }
-    */
 }
