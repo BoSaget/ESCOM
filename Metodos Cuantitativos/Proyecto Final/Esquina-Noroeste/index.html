@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Método de Esquina Noroeste</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="titulo">Metodo de la Esquina Noroeste</h1>
+    </div>
+    <div class="container">
+      <form name="datos" id="form1" action="index.html" method="post">
+        <br> Fuentes: <input type="text" name="filas" id="fil" />
+        <br> Destinos: <input type="text" name="columnas" id="col"/>
+        <br><input type="button" value="Genera una tabla" onclick="generaTabla()" id="env">
+      </form>
+    </div>
+    <input type="button" value="Crea otra tabla" onclick="atras()" id="repito" style="display: none">
+  </body>
+  <script src="main.js"></script>
+</html>
