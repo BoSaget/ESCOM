@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="21" />
+    <bytecodeTargetLevel target="21">
+      <module name="Firebase.admob.app" target="21" />
+      <module name="Firebase.analytics.app" target="21" />
+      <module name="Firebase.appdistribution.app" target="21" />
+      <module name="Firebase.auth.app" target="21" />
+      <module name="Firebase.config.app" target="21" />
+      <module name="Firebase.crash.app" target="21" />
+      <module name="Firebase.database.app" target="21" />
+      <module name="Firebase.dataconnect.app" target="21" />
+      <module name="Firebase.dynamiclinks.app" target="21" />
+      <module name="Firebase.firestore.app" target="21" />
+      <module name="Firebase.functions.app" target="21" />
+      <module name="Firebase.inappmessaging.app" target="21" />
+      <module name="Firebase.internal.chooserx" target="21" />
+      <module name="Firebase.internal.lintchecks" target="21" />
+      <module name="Firebase.messaging.app" target="21" />
+      <module name="Firebase.perf.app" target="21" />
+      <module name="Firebase.storage.app" target="21" />
+      <module name="Firebase.vertexai.app" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

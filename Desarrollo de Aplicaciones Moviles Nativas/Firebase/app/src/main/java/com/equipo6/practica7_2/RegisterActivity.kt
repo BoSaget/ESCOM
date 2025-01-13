@@ -1,8 +1,11 @@
 package com.equipo6.practica7_2
 
 import android.Manifest
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -67,6 +70,18 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                val channel = NotificationChannel(
+                    "default_channel_id",
+                    "Canal predeterminado",
+                    NotificationManager.IMPORTANCE_HIGH
+                ).apply {
+                    description = "Canal para notificaciones generales"
+                }
+                val notificationManager = getSystemService(NotificationManager::class.java)
+                notificationManager.createNotificationChannel(channel)
+            }
+
             // Mostrar el ProgressBar y deshabilitar el botón
             progressBar.visibility = View.VISIBLE
             registerButton.isEnabled = false
@@ -91,10 +106,12 @@ class RegisterActivity : AppCompatActivity() {
                                     FirebaseMessaging.getInstance().token.addOnCompleteListener { tokenTask ->
                                         if (tokenTask.isSuccessful) {
                                             val token = tokenTask.result
+                                            Log.d("FCM Token", "Token obtenido: $token")
                                             // Enviar notificación al usuario
                                             sendPushNotification(token, name)
                                         } else {
                                             Toast.makeText(this, "Error al obtener el token para notificaciones", Toast.LENGTH_SHORT).show()
+                                            Log.e("FCM Token", "Error al obtener el token", task.exception)
                                         }
                                     }
                                     Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()

@@ -1,45 +1,26 @@
 {
   "project_info": {
-    "project_number": "667724552028",
-    "firebase_url": "https://pruebapractica7-abfa8-default-rtdb.firebaseio.com",
-    "project_id": "pruebapractica7-abfa8",
-    "storage_bucket": "pruebapractica7-abfa8.firebasestorage.app"
+    "project_number": "75623557372",
+    "project_id": "prueba-4a450",
+    "storage_bucket": "prueba-4a450.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:667724552028:android:75e68c52570062a606d399",
+        "mobilesdk_app_id": "1:75623557372:android:fdb00b4e881b947a994f79",
         "android_client_info": {
           "package_name": "com.equipo6.practica7_2"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "667724552028-ub2isdubgdk3k46lovbgv1tlbn268h2e.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.equipo6.practica7_2",
-            "certificate_hash": "dc32ba0f1363c853c99bd31af558ab365a2880d8"
-          }
-        },
-        {
-          "client_id": "667724552028-st5jsb2h6qtv620hpnni9blvm43bc4e5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAAwbJKxMJfwBphdJ1FY7d8f5mjsoICZBc"
+          "current_key": "AIzaSyAVN6sLvbJDjLkv3ckdmGnt5rD2bUyITXE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "667724552028-st5jsb2h6qtv620hpnni9blvm43bc4e5.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
